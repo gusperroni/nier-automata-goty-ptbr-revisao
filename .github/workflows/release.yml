@@ -1,0 +1,44 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar PyInstaller
+        run: pip install pyinstaller==6.11.1
+
+      - name: Gerar executável
+        run: >
+          pyinstaller --onefile --console
+          --name AplicarPatch-NieR-PTBR
+          --paths aplicador
+          --add-data "patch;patch"
+          aplicador/aplicar_patch.py
+
+      - name: Montar pacote
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory pacote | Out-Null
+          Copy-Item dist/AplicarPatch-NieR-PTBR.exe pacote/
+          Copy-Item README.md, LICENSE, LICENSE-CONTEUDO.md, CHANGELOG.md pacote/
+          Compress-Archive -Path pacote/* -DestinationPath "nier-automata-goty-ptbr-revisao-${{ github.ref_name }}.zip"
+
+      - name: Publicar release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: nier-automata-goty-ptbr-revisao-${{ github.ref_name }}.zip
+          body_path: CHANGELOG.md
