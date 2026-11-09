@@ -1,0 +1,32 @@
+name: Correção de tradução
+description: Reportar um erro de tradução, gramática ou consistência
+title: "[Correção] "
+labels: ["correção"]
+body:
+  - type: textarea
+    id: texto
+    attributes:
+      label: Texto atual
+      description: Copie o texto como aparece no jogo.
+    validations:
+      required: true
+  - type: input
+    id: local
+    attributes:
+      label: Onde aparece
+      description: Missão, personagem, menu ou cena.
+      placeholder: "Ex.: acampamento da Resistência, conversa com a Mulher Estranha"
+    validations:
+      required: true
+  - type: textarea
+    id: sugestao
+    attributes:
+      label: Sugestão
+      description: Como você acha que o texto deveria ficar, e por quê.
+    validations:
+      required: true
+  - type: textarea
+    id: imagem
+    attributes:
+      label: Captura de tela
+      description: Opcional, mas ajuda muito.

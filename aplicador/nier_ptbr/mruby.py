@@ -65,7 +65,7 @@ class MRB:
             for i in range(len(q)):
                 if (q[i]&0x7f)==55:
                     n=(q[i]>>7)&0x7f
-                    if n in (6,8) and i+1<len(q) and (q[i+1]&0x7f)==18:
+                    if n >= 6 and i+1<len(q) and (q[i+1]&0x7f)==18:
                         mid=ir['syms'][(q[i+1]>>7)&0xffff]
                         yield ir,list(range(i-n,i)),(mid.decode() if mid else None)
     def set_slot(s,ir,k,text):

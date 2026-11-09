@@ -37,8 +37,17 @@ jobs:
           Copy-Item README.md, LICENSE, LICENSE-CONTEUDO.md, CHANGELOG.md pacote/
           Compress-Archive -Path pacote/* -DestinationPath "nier-automata-goty-ptbr-revisao-${{ github.ref_name }}.zip"
 
+      - name: Notas da versão
+        shell: pwsh
+        run: |
+          $linhas = Get-Content CHANGELOG.md -Encoding UTF8
+          $ini = ($linhas | Select-String -Pattern '^## ' | Select-Object -First 1).LineNumber
+          $fim = ($linhas | Select-String -Pattern '^## ' | Select-Object -Skip 1 -First 1).LineNumber
+          if (-not $fim) { $fim = $linhas.Count + 1 }
+          $linhas[$ini..($fim - 2)] | Set-Content notas.md -Encoding UTF8
+
       - name: Publicar release
         uses: softprops/action-gh-release@v2
         with:
           files: nier-automata-goty-ptbr-revisao-${{ github.ref_name }}.zip
-          body_path: CHANGELOG.md
+          body_path: notas.md

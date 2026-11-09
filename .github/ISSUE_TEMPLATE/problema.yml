@@ -1,0 +1,25 @@
+name: Problema no instalador
+description: O instalador deu erro ou o jogo apresentou problemas depois do patch
+title: "[Instalador] "
+labels: ["instalador"]
+body:
+  - type: input
+    id: versao
+    attributes:
+      label: Versão do patch
+      placeholder: "Ex.: v1.1.0"
+    validations:
+      required: true
+  - type: textarea
+    id: saida
+    attributes:
+      label: Mensagens do instalador
+      description: Copie o texto da janela do instalador (de preferência rodando com --verificar também).
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: detalhes
+    attributes:
+      label: O que aconteceu
+      description: Mods instalados (WAX, texturas etc.), se o jogo foi atualizado recentemente e o que você esperava.

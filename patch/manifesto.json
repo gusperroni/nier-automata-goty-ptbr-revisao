@@ -1,5 +1,5 @@
 {
-  "versao_patch": "1.0.0",
+  "versao_patch": "1.1.0",
   "base": {
     "descricao": "Tradução Tribo Gamer Brasil v1.00 (09/02/2023) para NieR:Automata Game of the YoRHa Edition (Steam)",
     "arquivos": {
@@ -28,6 +28,7 @@
       "phf/pf10.dat": "934afc15ea59a18190dddeed872d5212ab47102dbbd1c73e64dc0a4ff4a9d1b2",
       "phf/pf30.dat": "8c6cd8afa1097e279bca691b08a314d3195e13b31bce8b729531fe933e62fc57",
       "phf/pf31.dat": "6675820400fc27967db9bbe56766f438b5e0bafe454cdf056524024e197ab634",
+      "phf/pf60.dat": "8b89a7064edb11c6080f284103845dbb7168fecd4081772813a7a509a82d4d8f",
       "quest/q020.dat": "9244dc1144285ca2b291e3859ac088e1bb5c2827d6b62af9466802c221fac87f",
       "quest/q031.dat": "61679abf02f3b6a5b5aa1a60cdeb7b722861b35e51190adee94fcd669d201718",
       "quest/q032.dat": "888bdb5dd1165c6fdd14a2d3f3fb79a600bbd7fb2b5704bd2aa3d0e0feb050dc",
@@ -94,6 +95,7 @@
       "quest/q900.dat": "ec8f6c4b4948f8adf2a30f1bd1b2799a7d3b95c180ad0ae378ae44ca1e51d645",
       "quest/q910.dat": "e5a3cff0399656220692d3ae1485fc2c2ee532c3e11275453e0aa18a4fd7aeb4",
       "quest/q920.dat": "8520845c2ec8131c995b3aca53e7323c3f1ac6569e328007faa9a7eb64432ddc",
+      "quest/qab2.dat": "93cb9c60debedd7726a2820a4bce7779b3f2782def49a4f342a325135a791357",
       "quest/qab3.dat": "7a6899a1204a003a657ec3411f74de36f2a3519ad531aff3ace77d56f37d92f5",
       "quest/qab5.dat": "05e7e8cb1edebd051c3679ae450e0fd2c07b4c90fe782023182b5a44a9fb8691",
       "quest/qab6.dat": "76da73e21fbc28167b6f2326cea06eeda909b1b832f0744be2be59144119b8ff",
@@ -101,23 +103,30 @@
       "quest/qabb.dat": "f4e3527d749f43c3fd1847a945d2861a071f63044be8c2bfac6b2589a99d3cdc",
       "quest/qabd.dat": "b8c284578c5ac898930688ec770027cb829dc0667aacf4a63e6140764d38e03a",
       "quest/qac8.dat": "ae8a314ed22b49c9371837ab12b1065c57235c1126048b344bd7788020f1c64f",
+      "quest/qad0.dat": "f57a29fe8bdd4377319833624c33a83313966517b6847b79eaa36327bbac2a4d",
       "quest/qad1.dat": "66b0713e8dadb8e91273c8e91f1e4e9a6be13e1489dfbd04609791e264b4632c",
+      "quest/qad2.dat": "fef77212fee2ebd432d8b907438711c1eada2cafeeb7fc4f38f1797a47dadd89",
       "quest/qad6.dat": "9e0035abdba2d1a9527b0cc35671c34bdd6bafd298cb52ffb9e9d06cb8a3f260",
       "quest/qaeb.dat": "48f02e2497238bf14cf6d49af0ff089d1d5dbc6309defbaedfdb8f613cd8e9d5",
       "quest/qaef.dat": "19f76ead2809f927453b8573fb5faef06968209f10a5c2fc25931ba18578746f",
       "quest/qaf4.dat": "6d20b51bcbed7976a92d1fe6983fa42eef642bd78adfa9fde4cca1d841371ee6",
       "quest/qb20.dat": "a4ba3e0d0ae96b8946a9b90084c5f3a610d8d42b4cf4e030d6df68e272f74812",
       "quest/qb40.dat": "61d9a8a7087e96003ccd750a8d0c923ec9cd51133b19d6d285a69ea282212b5e",
+      "quest/qc10.dat": "e3331b49268bc0ac4768a8ebd9007490c20355370acadcd8b97b4378a86427d2",
       "quest/qc11.dat": "1a5930fe514d8a279bf53668e543daf97c61f9d5d94e51608b771a453345b2a3",
+      "quest/qc12.dat": "14ddb02676d5b0ea3338380987b1f45bf4ff40724957c15fa65b4fe4ad9b9c04",
+      "quest/qc30.dat": "d45e3829692ebd7dfddb62847041ec8d2165629f7f2230fdf03e4ecbd83d27bc",
       "quest/qc50.dat": "dd04c1a16d92972b5753a7de6b074073ad3312e9444d3f543aab0dc8f3ffeb16",
       "st1/r100.dat": "eaa3da79a1971c623cb47210e94132996f114d3021f87c0bac472f5390803696",
       "st1/r110.dat": "f02654f5985b4edf422e50d264ba7f355fbd6489019f95850682501696bd0200",
+      "st1/r120.dat": "27ee6de7cabfa6bf1a581a67dabd44ad13e767609b41026e28ca85f079f49962",
       "st1/r130.dat": "2197272246295f01985e09115fe9c5a1e86125318b5084bd5d263437fb5d9ba8",
       "st1/r140.dat": "0245f2b209f3e750435d72808c793879e93f07293d62f4b61d31aeebbadfeab8",
       "st1/r150.dat": "d7980af5d92e33c6ec6090bce5ea13c7f5cd726c2dfd99fc935ffda93a4b7950",
       "st1/r160.dat": "4306e684de2f287bbec150ff69d934968b0b1cfb3f07a490d45323333daf1b8b",
       "st1/r170.dat": "2f2bfb32affe428680e06efd0369f6a1661a02ff9f99ec85d6003d8f0dad5dc5",
       "st2/r200.dat": "28f1466ad527f694267374a70a730c5c570af12a5c7b99054d78618eccd84f9c",
+      "st5/r530.dat": "a77ef72c3adeb201d4863300c1e702cdbc9b1e3717cf72f68fc5732fd4635e61",
       "subtitle/subtitle0010_us.dat": "51d4f21e42651c4c3c96178f51c66112509df69e3af11d4db349767e95d448c2",
       "subtitle/subtitle0011_us.dat": "7fa4d4a0c74219256b7511b481593a4e26568df6cd9610e83103e5deb4a446ff",
       "subtitle/subtitle0040_us.dat": "f7d2b3764b4b5cb0a59e9f7bd98685744aee7372c7b8551550f9b9017dc1f245",
@@ -221,8 +230,962 @@
     "script_base": "st1/r110.dat",
     "membro_base": "r110_7a562cb9_scp.bin"
   },
+  "reconstrucao": {
+    "descricao": "Arquivos de script atualizados pelo jogo em novembro/2026 (chinês simplificado/tradicional e coreano). Quando o jogo instalado tem estas versões, o arquivo é reconstruído a partir dele, com o português da Tribo e as correções deste patch.",
+    "arquivos": {
+      "ph1/p100.dat": {
+        "cpk": "data002.cpk",
+        "sha256_original": "41a00fe060a3a418e5882686fc55f19e41e8912404d96815e6b9968ad03a6197",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "ph2/p200.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "ca9c5ec1babc0809d63cd5bd409aebc3b60974617bcd9f141e957be9d3be499d",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "ph3/p300.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "d67b0f3daf4c4d2d3cf2382e420d04630876aff8a048c6869dfebc7ec290696e",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "ph4/p400.dat": {
+        "cpk": "data100.cpk",
+        "sha256_original": "fdb9d62a56cf7c1bf792b4f067f3852cbb4d39708f119736253a11a1ab2d9ccc",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "phf/pf10.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "57c181e4b8fe7bb569262ae3f2aa038da5728083b828ab057f15d46e250c4188",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "phf/pf30.dat": {
+        "cpk": "data002.cpk",
+        "sha256_original": "9171d4802b3b0f6a6ad3a80191d6df58966ab857da68f11a8d9c99cba39526b9",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "phf/pf31.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "78426c745719b5f22b4de94071ea2911a6fd6e13bd431c97dcaaaf6504b7de53",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "phf/pf60.dat": {
+        "cpk": "data100.cpk",
+        "sha256_original": "36b6b215280e90d78afca1e4612aa2eda715ec1d0cd3afd2fe12ee35a16a66b8",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q020.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "2bac1302c0d887d45fa2caccc4199aefafec89b9d52b231a0d01df7195af0a0b",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q031.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "59b693b35fd4a1ac8ea809d9b6d832dd630edb86ebb12f7b873180ddfc79e419",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q032.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "aa30537e7f154bab308c9416b6a8a5dd0a49b34992310f31fdd7836662576018",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q040.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "7728005ef6d5d2a16d7f6a39e1794c84085ef9ff22072ae0b2aaad6a84aba26f",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q070.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "671a2f4722477c9b7150aed47ba166e2fa261926ddecf9d239baecd38db57c44",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q071.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "1f006d5a7808888a7fc75f4db7d9a75b87acf5ffe709ef1a25a523873cd0dfc8",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q080.dat": {
+        "cpk": "data100.cpk",
+        "sha256_original": "f7317da52a0a12cf6849021ec8aa97e66be45b3a4d46e97aedfc07792b215537",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q090.dat": {
+        "cpk": "data100.cpk",
+        "sha256_original": "7c6f8e350d3fd34d4ce0b358685ebec67330d0fc3e4adb5e974b84c59888287b",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q091.dat": {
+        "cpk": "data100.cpk",
+        "sha256_original": "1a560a896399ea08e11085033f7b10b7111f5bfb515356b238fbd1eaab3fbc0f",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q092.dat": {
+        "cpk": "data100.cpk",
+        "sha256_original": "d2bc2587dbca25c0596838c250ada0a1fc6e97453e013e87b240a62df91f42f5",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q095.dat": {
+        "cpk": "data100.cpk",
+        "sha256_original": "5644f3f2cf242000e3c14e6660d0d996e5a000f84fa0fe8f9fce51a48288ddf5",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q100.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "70a4954de10d81b0a49eab7f91012b6914f6dd15758994ebfa3855673ab0137e",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q101.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "8e5260001b5157b2d7f1e3c9cd294741bad07e2b1780cfd8367d519d0d911c25",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q102.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "d14e1a9d8fb53b7ca06114106a42e094a7ca01849b9ed2bb8f0f4434a57b32af",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q103.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "f56c466243ad071bd9571c403f5f612ac50e8038f55b252bf01f548a218a5ad8",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q104.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "a86a0ff78117edca542809171c016a19f588e71d8f6514e31e4d716fb2dc9e4b",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q110.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "73ce403eeca189344f6d3dd2c2f6cab7c39956dd99affb9c69cd1d49a2ddb771",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q121.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "df153c9d4ffbb80ad82fac86711d8e38c8d486bd6f0b880ce96aedc90fa52a8e",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q122.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "d58d8c7e483a29fafe74774c7b107b657cfdc70da286ff7381dc957cfa6d81f1",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q123.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "8e0b91a4a0f84158292473698065031d375b77f63021186f282c0cff6d31b7c6",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q130.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "33324d604160d021bbfe99c336fac9bdaca836b821f10a893ff0145462ef4f42",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q140.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "a20c724eefdfd9077c621138415a4d5934db1b9627722bf2a4e7b26013729dd1",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q150.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "5dbaef55a5e51a88e42bbe7877587d77a4164f9bf1591af7c2eeb7eb1df9f607",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q162.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "bd29b18de91c80e9e62f54085944b9a08cb9ce0074a56860c6b27463cd9a5153",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q170.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "6a89f4524e5dace18ce16cfe51626b6fc47a6671e5d7d7c7b4413801b213de27",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q171.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "3b18a5c23d1a153a02a8b1a97ca17ee1b2068176dc74b0c422efd46520085a60",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q180.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "8bd049da2db9838da7dec98b299246acb13932d5618908c2dfa9aaf7d9491ef5",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q181.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "a80635830c9acf3d0bb55f99cf0304765fc6978ed115d08d925a5404bbe3b88d",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q210.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "55d9b8e5deeaef3d8692ca77d812865a73994671c518af5db904af19cc4b327e",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q220.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "162918227730d7753308b237ecc0533ddc0f2f394ada65a009879c3e24289518",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q221.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "5d74d7ef4f4e08fa0cfa484aeb34bf4d512d737633fbef98e20bf7c708ea1473",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q222.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "7e5849a9836a2099dc5befd11f1b2f803357f0cb5fb3cc54219861a0ea37d693",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q290.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "2cc5e337070281cc36d5a35ee6352ba9ec9dabe4144784c3ea96fc4318aec857",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q300.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "90654f736138ae4e8a8f87a794743cb56a9ce41b5b28334382ea152b202cffc8",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q330.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "697d4575e705b67c68fc8adafa4a69177fdf7e31e2a9669f13d9b8bb15b7e67d",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q340.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "78c745e27813d9cdd680ad269dd37c6cc5337ea4c3ab5322e9b548c9c7655c4c",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q360.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "077913ca7fe8bba639fd469e99e80a8a68bd71c6067f4a941ec579fea79b4db2",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q400.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "711081b7c446b65eb158599a69840a94a86b9152987ab010669790e88f1903f7",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q410.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "705d22cb6459c210c1af00bd784ba1bf361cb2b600ebf50a0b211018dbf10b03",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q440.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "6726ec4382ad6e6c11d7ad312aba8b96280063e64358e6a91c98a9b89f666583",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q500.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "b7179f3b8e3cfafba694743b087856987ee739a32af7f0692327e18c9367928b",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q520.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "a289b8e12c55746116ab46edcc778bfe651fca12f01a10f1a28aea553defc2d6",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q532.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "6976a0310a0f6c62341872fa73fd4a525758a3cbb099438ee0a921aa84977221",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q540.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "d640537a03fd7f509bd698af65dd6c6bd4dfadf30d64bb3a4b7fb718cc4426f1",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q550.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "a7fe8b318092fc6fdb2e1856fbc73773e2a3df3bb873d370e871b90b247468eb",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q560.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "84ee70135107897833fd898aaf6a1aed35e925871ba86ebc8667e7c0c6d61341",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q561.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "2b52dc2456e2e77f18a6cd082e6efe8ab43419267f515281a7f264cfbe0f14e7",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q562.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "f580a21aa0bb8076033888ff9ac0fb9d3e3bc621382b4d25208fcedbd5e6d2b0",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q590.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "a7e08103514e61e2d233940e966cd6edbb0a0fd1c22bfb2e0900f888ac91ad54",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q640.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "38ba96cc01585bde63ecdda010cb5bcc76ac6ea4e9226502cb8e941dad44347f",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q650.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "a753431ef67cc61caa0272718241643744a5f2f9320c3764c3527d17012ea2c9",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q651.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "499f1a2fa9c1584f6a6438df965e78007a24f22036181349a2d3778ba53da70a",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q652.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "d5f677e09f51f1fff742efb6da178c54f288fc4602ac1cf160e6758fb5d931d3",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q660.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "25314ff33e2bea2bf4a045a09ab4740246c19913ac1c59618572b680759d6724",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q680.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "4370544f03d37975d66b8ec6116050fb0c9595ade663700ddd57234690a3b145",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q720.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "3f9ab672dd12597773c40ce2aa8e380cd456dd96d52b3a5c3645c9724445bbf7",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q770.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "db97257e0b12fd7269c3f07ba34453eab23a9568e7b0f6d42f363356fe33d5e9",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q800.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "1bc48843baa76f10462d4380f114abd1bd72c59b4158fcc92edb43c3ef4873b7",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q801.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "1b07095ab0dd23d8f19969b380961a51ba4cddf8e0e6a8b4a95c93125abf5f40",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q900.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "c454ea230937c2f57ef1b06f5fc340bada1c36e182abc33eae66b5a8ec76bd2b",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q910.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "6cf2f0ae1d8d46b83205c8b16fc23d7263acd589431ed3128a9f3f3314439047",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/q920.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "bb89ed655316ebcb2b1a8f0e78f92641f715b597876bc13f10eb1fb713b9656d",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/qab2.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "743408f8f8c44cf8260a735535ef4ea53246a69520187fbf1da6f43acf1d1e10",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/qab3.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "cdce2fed73d033605ebd9c9da5cec1265be778fb9d5f89b7d873be54110cb4ce",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/qab5.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "01799e428a338d31a20269960d640b00b1506bf5248c92d2ffd5ab4202bcb97b",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/qab6.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "ec11e383472875d3a27497a84c1b8aa28011afab9860087fdf2e69cd923a28f4",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/qaba.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "a7a8dadf1f2b23d229da49b41573d36d384ddb9d28746b74b6a181b3bddc40da",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/qabb.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "fde0261ff48dc0cbfa1803b9240e878e9d33398f9f3174501b468801b9c8b149",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/qabd.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "f526fa605736d2f54152ad21a56b8ac1f50108ff8580a390bd5163f34025c8e7",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/qac8.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "215ab1a2fa984342771972efe67181b57de9b3052d78e6d460970b2e157853c0",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/qad0.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "c6f0bc70f87a6216f0e4b61b3ac8366b472586153b56f9744a2e63233e6dde9a",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/qad1.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "38971938c8eb210887cf5c89d9e7cd2e25d09cbca25924bb3c1f8c2f8a75681d",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/qad2.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "6060b26b994684007ed6ca2bece6186bd5bcaad7267618008b00215015367ce5",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/qad6.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "9410fc27b0f3b1b2af3f03ad56ba084d6bc42174e23f94996e07b58491e2cf47",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/qaeb.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "c870f6ed392ef998b115aebc5888ee7a2ff8c6e291fb376c6bf8308ef44babeb",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/qaef.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "526970dc3c1fedd30ede517b485a5ecfc1f0ca9196a0652df4f1ee9f8ca5903e",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/qaf4.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "02a790c18e8279919187f51294ae13e110da99113e746931701a6577843c130a",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/qb20.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "248132e66c59b099a63aad8294f6ca248e373e83fcfdb3bbb0a402b9f80045cc",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/qb40.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "c95dd8151b35c2677e55ba7048e32be30418e1928327f7e7f9b9acdea3c5de5b",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/qc10.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "c58dad6477beaf9e4d24a98a449d72a0f1fde91dd3e43ea07d8db62f4f02e2bc",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/qc11.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "c6a48f457deeb5bcf7efa4c770940bfb3b9237326c6e42d0a0a156caa5764dec",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/qc12.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "71bdd099d323d827019b6278052aed177d65d800838fececaa6f5097af2c408e",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/qc30.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "b95d9a4fbfa2ad28c4b8743c45e4dce10c65502338e940af5fb5fc8eadf6e559",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "quest/qc50.dat": {
+        "cpk": "data100.cpk",
+        "sha256_original": "547c0668ad4ee5e6465a0bfc795bb42f328f4335c222ff3c8d56321eae3e8273",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "st1/r100.dat": {
+        "cpk": "data002.cpk",
+        "sha256_original": "6734aeaf4d49fb2dc1d57ad85cca9511b8ea234ff568538ae4026d70dc92ac21",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "st1/r110.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "008e8d18c98e5e4ecd5fe4d452271873bd34fe2ae8abd7be2acd5ca8ee2cb145",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "st1/r120.dat": {
+        "cpk": "data002.cpk",
+        "sha256_original": "dd915359ddef04fab73f97c69e988505811ea1eda898fbc12df170f5934292db",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "st1/r130.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "807187d22f121ee43606a27b6f6ba2934e4ef0d8318d03e0ec769afd13fba555",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "st1/r140.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "80a6266e06380ca5aa2fbce8b4c99bcc844ee7579bc0ad1c8a4d994fda5ee0c9",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "st1/r150.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "201b9a159b7ff2c838f614332e40b6b114292b13dd6ce88fa6c4f0357ffc7e40",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "st1/r160.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "a077bb233fce8b7b04859facc2cd053b3df7ee644a578f354b97cc0ad6c05693",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "st1/r170.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "4edb244c8be7e2c369039e84689569d82366e1ecdcbc2dcc6d85f3b7760615d7",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "st2/r200.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "1513d6671276cd8c1bc02658de6df2abcd9f819470aa695cb37a044c22bad8b0",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "st5/r530.dat": {
+        "cpk": "data012.cpk",
+        "sha256_original": "35da69361b39f03992eda87af278fd1cd3a8cb3bcdc19c91423f507e77c4417e",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      },
+      "wd1/g11516.dat": {
+        "cpk": "data013.cpk",
+        "sha256_original": "23c8a13bfc351f18e529fceed3112a6088cabd627676516033c91687d109c7a1",
+        "manter_tribo": [],
+        "manter_ingles_novo": []
+      }
+    }
+  },
   "resultado": {
     "arquivos": {
+      "core/corehap.dat": "2069832ae2f03b98788df33746ae742d9f5bdd3808546bea6c6c9fb145023038",
+      "novel/M1030_S0310_N_eng.txt": "0fd1a29968f234fd6a0e604090df086979e187d5f417846e5dfbc33da0ca62e0",
+      "novel/M1070_S0020_N_eng.txt": "44f70031d059219b404397f13a62c85debb1bb9b5b2113360d304decf0c6791d",
+      "novel/M1070_S0040_N_eng.txt": "ac0b4381693deaa06feee6cb90697ba205130c89998e9893fcb6f72f19f9b4ce",
+      "novel/M1070_S0060_N_eng.txt": "121af3e98c4e188f2607c0932c36dd2e183aa9b6ae4a60194ab53f1a40340cc4",
+      "novel/M1070_S0080_N_eng.txt": "8cee5f3cc11e1a7cad3a1c75664daca66a04a01cc8e3f1f1fb2acfb1ca2ba1aa",
+      "novel/M1070_S0100_N_eng.txt": "24aaf5b28cf47c135725f96c2e53890f818ebeebaf31116c8a30d7d59ccf8b4d",
+      "novel/M3060_S0005_N_eng.txt": "8ab83888617df2edff83ae2aaee57689644f39c435a17c7ce06aef00599bcef5",
+      "novel/M3060_S0035_GM_N_eng.txt": "0e947dc012c30f037f40ea4c24f4a3a36f3c726306c325d51dc6d3e46bd616fc",
+      "novel/M3060_S0910_N_eng.txt": "8748ea04da5eef02ceb3c5689c6ac3fbac72ea1e1815376e8e1d1fad28bacabb",
+      "novel/M5095_S0020_N_eng.txt": "7928a0830812d7b4c3fdf41ae5e7848264e0e86f36e2f2871a9b3f0d3c4126f9",
+      "novel/M5095_S0100_N_eng.txt": "42287155720dfe39ac9a3edb1db289570169c449195fa79789cfd45067151670",
+      "novel/M5095_S0200_N_eng.txt": "ef511e6b226178f43a8f6f47ed23f21aa5181527020e57978be450b97b45610b",
+      "novel/M5095_S0300_N_eng.txt": "c542bc347e84820a6e458ca6b38e4f3d441c1b079d939915b6d11b26d11d9761",
+      "novel/M6010_S0050_N_eng.txt": "e1a84bad75855cadaec4f60a05a33bba5046f13a05b9e5d42a43a4be48ed8dfd",
+      "novel/M6010_S0150_N_eng.txt": "a4ea568b91b07038d3e7ae0c10d19bd14bb870f52dd2dd929012eb7dd4567be6",
+      "novel/M6010_S0250_N_eng.txt": "6b12464ff745532accf546f165d41e3f65eaf9edd1ad776aa59f4a583f235b41",
+      "novel/M9000_S0500_N_eng.txt": "7f59f4c3cb3f24553219ef09f36a413ef310aa5b0013d51ddca3d62bc644aaa1",
+      "ph1/p100.dat": "88d19ea1ff6050764700854b55af39a07a3d04859c3f14b461645c67880acae7",
+      "ph2/p200.dat": "5a3dbcd3c9eed6196e2eef5fa931da99daa83e27bc40001bc21c47c4fc432844",
+      "ph3/p300.dat": "c0676394a42d36fb865bbeaf5c13271c6e413f8cfd77272d64d0930257fd5fea",
+      "ph4/p400.dat": "3bbb9f9112d4e44e614cb1b0b3ace15f131795ac7f5bedddbf6e7b82cf2fd677",
+      "phf/pf10.dat": "f3fcaa17e1e54d92d125b37a1fccfab769c18711b95bc5eaa50b8a2d838cc679",
+      "phf/pf30.dat": "e1bab023b26b13e92ab27a81067f86486b4c25865af703f5ba26a4ad3d881172",
+      "phf/pf31.dat": "c88f464a65ac8e285cecbdf338c8069f8d858bda5cae3eb4317f1650cf8708d9",
+      "phf/pf60.dat": "8b89a7064edb11c6080f284103845dbb7168fecd4081772813a7a509a82d4d8f",
+      "quest/q020.dat": "09bb4b891201fc7e0c98d68e7e6fbce959326feca4372cd2af582bdc00874f5e",
+      "quest/q031.dat": "3bfed5fe395dfd715bbd30aa51ef732dea56c5c56bfe79baa658e0c1c13af88d",
+      "quest/q032.dat": "b0398301a6accb8afc3e4b484728fb180861283f363842330e89689693e9bc67",
+      "quest/q040.dat": "ef78e124572ba8716b4c414a51dba2c7526818b5699f4dd4fd3f363559032840",
+      "quest/q070.dat": "20d94b04be43fd80ddc6b91150cffa9c9858d801278be7ec8ccb3b6eda9fee2c",
+      "quest/q071.dat": "41569df2739953285a8a8c3173449988f876fc2d563ad0e7f10d7160c5a92b69",
+      "quest/q080.dat": "fac5eb2275e492116fc7b91c94d0fc61f3cfa25bb54a5260dd6c052180167fa9",
+      "quest/q090.dat": "739e1c5c2072146ae1cb065d62c85634908dabe133f7ba2e26ff995a17fb3547",
+      "quest/q091.dat": "1d5ea0600d35171b96cdd126b479f8a957fb6be5276ff3fbe421358f8b083748",
+      "quest/q092.dat": "e9976b2f682999c9bb9a29debc50f5734f49f4571a6ee077c968467bc69f08bf",
+      "quest/q095.dat": "0b01198748cc377d4be8d5a34c173260c1bd6fcdecd7ae02b626cae1f260c745",
+      "quest/q100.dat": "72f83f3541a4887f7f033631d578949550e090b7602be774ef9967e75b315b7f",
+      "quest/q101.dat": "d8c9765d709579a149e5cc5a66d09e4216fa9eada8168571d3d3047922fb6d92",
+      "quest/q102.dat": "6899eae7f52915a6e63fccf01d3e8c7cb8b05edb98cef2363e8ace23b46a1f71",
+      "quest/q103.dat": "b975599ba72c1b0956c906f8cd6d4524801a37c47156d410e584ffeb06f732c0",
+      "quest/q104.dat": "2bdf82019d98a41bc3198530c0d224ad7f34ecea2e91a0eaf8d3be94664f346a",
+      "quest/q110.dat": "cce48ff843e7967dd361a205fc5ebf275af6e848c1dd61d7f1eaa5344083bf81",
+      "quest/q120.dat": "a0668d6bbe2eb93e25125240ca6b68dba9ae17f2c7fc51f7e58fbaa52fa43089",
+      "quest/q121.dat": "825c4cb97908f341cbaa7292fbc5430c7209e4a4c3dbe059a9ef01137fd203e2",
+      "quest/q122.dat": "ac9b0ee90c2fce94f3e809c4992686de645bc03c814929b2a9052faa83be988d",
+      "quest/q123.dat": "e103bc3a901aa0b84072710f489af03e690369f9633e1c307b07e176becf78f3",
+      "quest/q130.dat": "6854a5a65fe3b799dccbae0842d8360f4bbdf8a47dc687cf9b0003cc19b43195",
+      "quest/q140.dat": "9f9dfefc929a7a73c053a015bb2fc6b6d750d15345015437422cb82ba3b3727f",
+      "quest/q150.dat": "4b4daa9c50a801a0b75037a8eaa4a1583eb9eb648b5bc6eb783ace362d6768a0",
+      "quest/q160.dat": "357d09546fbcccb145f98308496fc31e1bf295b02afe40d4919c70fca22daf58",
+      "quest/q162.dat": "00387029d471da7b3a21f910f528965cdaa42645b8040b44202b1df2afe4b772",
+      "quest/q170.dat": "d47d76b64093213bf7e19bfdec297be227f75a58e3090f266c14cd36f64aae40",
+      "quest/q171.dat": "18330023e994aad0ac5ecccbaf1a57c5f603b2751ad65c2c7bbc418808984313",
+      "quest/q180.dat": "660aef44a2aedc55fd18b36e934442f2b38892b500c52cb5429290662360dfdc",
+      "quest/q181.dat": "102ed5c2de9c8d82f90c2aa3f59a072d54b9e2b5ac35b4790658203291d269ae",
+      "quest/q210.dat": "0fdb4eebcda7c782bd38386e7d61e56bb26e9e2b408937ac91732e2a062de0f5",
+      "quest/q220.dat": "7352d08ef3dc37f403137e4e4e664781338b23c58d8c02a151a1f5f927a701c8",
+      "quest/q221.dat": "fad66e9d95ea50748e17406fd4d7a509a9c90781e8a10ae246da7187e31ab380",
+      "quest/q222.dat": "b7bdf6cbc005d0a89a6440624e864798b45b7baf3a9d05eb111ebed73bc37134",
+      "quest/q290.dat": "7c99a708b882aa40e83f5fd27f2fc087dc07ee6a01ac6f9efd4937cad77db928",
+      "quest/q300.dat": "6f82258c65938d90d88e15ccf6c87f26a15baac0e13990b9b42f2191a40694db",
+      "quest/q330.dat": "26092e8b68d398f11cdbc5309aa3f61f3f185a27689091f5f56b539d0aa7f5bc",
+      "quest/q340.dat": "e4fb4552634c84359ea22bc36bf30892ccae6e22ad452ea838d9db66181fbdcc",
+      "quest/q360.dat": "c328238d90a27730f22fca69dd79658b4f5dace2aa57b175c2abe3b3d17c169e",
+      "quest/q400.dat": "7eabb451acd23bb4b89a3aa9165f67e3672ecb60c2a3113d79d126c141687009",
+      "quest/q401.dat": "ed50484d20ef6874a6e7cc2ef0c5e826f52616a03b68584ba2a03fcd8e8b23c7",
+      "quest/q403.dat": "0597a74506cfcd0288cafb11c59f33b9652ccbffeecbf75062b69073dbf2e3ec",
+      "quest/q410.dat": "503543dd9d0d22fe89e35a045937b73bd33ffbcd7c943af9cf60bc278f47f9bd",
+      "quest/q440.dat": "4c6c229747f90a3781ce348e20f6e9ec72a5de66b98441990a5b8aecd883ccd3",
+      "quest/q500.dat": "9ea4bade37930232de29e57f896bb9bf310f24b6ad7a1af8b2f350d931eed04a",
+      "quest/q520.dat": "13e30f717d996cce5813daa8e388e585695c32a7253a8793dbd49c50d31db330",
+      "quest/q532.dat": "fb1d369943fb9da7ea5eff5e74f3cee85e8fcc302a5251b9fb171724a4804750",
+      "quest/q540.dat": "762da1ce6964cd49a40f84ffe94903a077c6a36f9bda78fcd31267a31775c9df",
+      "quest/q550.dat": "7279572e02ad17a067ee4c63d836427908ac572f6af23c762683e046681ed836",
+      "quest/q560.dat": "97dde51899ce501901d85c64ea3132b7cf743389a4702ad56abd7053ae84028c",
+      "quest/q561.dat": "1dfb6395db36b96b8d9a718a57b81ca610c17278c1f7590b5c6410173de55e02",
+      "quest/q562.dat": "b02c83fe403b1ab83035532c19e3c4aa24790d5c0636f12d1d462e5002139194",
+      "quest/q590.dat": "c83c351034c8416ebbbdfeb073179682e68060c9d767a4905f832e6e72ea1e72",
+      "quest/q640.dat": "283604db4127e0f23af18640f5e749dc9c56a99620c92de724b9e533e71b386c",
+      "quest/q650.dat": "10500d0e99f7d5048d1657f8789d63158c778377ea02e80e415a3d375eab3c45",
+      "quest/q651.dat": "1129daa1f026e6c1fae32e021b42e5d1d88e2551a1e800b0a03f861ca9dc5966",
+      "quest/q652.dat": "1857db7503d1ddf6cf5a8b102bc6282aeaafe6f5e0fb0c8be57afb554f990b56",
+      "quest/q660.dat": "b5d8a2025eaf2e37fba32e7277f103019d8a471b974c6fab68b2b7b04ed207d6",
+      "quest/q680.dat": "db1e6c89f551c4b8b9cef848f157efe6fa73e68022b036f7838f3066ed43d82e",
+      "quest/q720.dat": "061b86b631b91eb4b05ed17094379f0f56596cc332cf11d71c91183307d2565e",
+      "quest/q770.dat": "67d7bdaf76e62e0c992720a73d5d9dbefcd3c448ac44c6829263febbb018487d",
+      "quest/q800.dat": "a20ef52d1fef0ac4d8e4ea49e99073d8128a53972a6d3dd9b479401208f6e095",
+      "quest/q801.dat": "ec0e3abb3d3ee4c6072f859ab62e5135995bdc2ef40accbe2684bd89bcff7efb",
+      "quest/q900.dat": "f034d1f8cc616df31904ae56acda4646313109097b8d868d0cd8d735f1ff5811",
+      "quest/q910.dat": "0db91317e8dc241af79bdd3860cb3916f716b73a9660ce3cb653dc19167390e6",
+      "quest/q920.dat": "8204dad6712e4cb720f11893261ca92fdcbcc728e76981ee699ed7366ce2a639",
+      "quest/qab2.dat": "93cb9c60debedd7726a2820a4bce7779b3f2782def49a4f342a325135a791357",
+      "quest/qab3.dat": "c748bcd799f1ce77ff138a3f811cbebb33c6af865e148f980926bd89f9e8854c",
+      "quest/qab5.dat": "7ae6a31dfb688c118029e0ddfd6ee6dbaba8fc614de84a8a2f93732a78a6144b",
+      "quest/qab6.dat": "51a7a1e6614f6f36b55ee6a064052304ef9c4756c1a201375a17ec81f07fc48b",
+      "quest/qaba.dat": "09fac7b997dc87795de3f5748ba637c08b4ce4bf9498fa73b358180a204a85ef",
+      "quest/qabb.dat": "f0b7729a8d24cd8a8265122933347d8567e2636f9b3ba9387a4231106021bf60",
+      "quest/qabd.dat": "6027d1afda55417b78dde4e45516d9eaf2063406122c8f894f0313f2fa636b09",
+      "quest/qac8.dat": "aed2a2d3ee4f52288d13ef062593218462d865dee7556e0079ac6910aecfbf6a",
+      "quest/qad0.dat": "f57a29fe8bdd4377319833624c33a83313966517b6847b79eaa36327bbac2a4d",
+      "quest/qad1.dat": "119c8a08a35f3d4727ac2a4b774113bb0bb714daff443a9ae5c3448fd5c0eb73",
+      "quest/qad2.dat": "fef77212fee2ebd432d8b907438711c1eada2cafeeb7fc4f38f1797a47dadd89",
+      "quest/qad6.dat": "bb37a8924bc9e4707918b21900b261dc3ac8b3addf12ddc93339fe6efef2d85e",
+      "quest/qaeb.dat": "478c47baec11f7b844bd8955343e902fcbeeadf042916c79a03e8a67b4543c22",
+      "quest/qaef.dat": "ededfe2eed692e30da6d017563437693246942f937765fc5f6a921005c932193",
+      "quest/qaf4.dat": "0240c148af10b813656d5c19cce5aa74de31d7a75c052882b75b25c05b564a3d",
+      "quest/qb20.dat": "a0ad76dcf32c223ff4591f776564ad33005c7420a624a0509783104af7851a38",
+      "quest/qb40.dat": "f0a3863481f1e789425e342f68c91c9d8800c76750d1bf500f7584d845cd1c83",
+      "quest/qc10.dat": "e3331b49268bc0ac4768a8ebd9007490c20355370acadcd8b97b4378a86427d2",
+      "quest/qc11.dat": "83e4b6dd23e085a86835fd90b273e777b68c67dc2f8a11e77cc3bee2054c6b5b",
+      "quest/qc12.dat": "14ddb02676d5b0ea3338380987b1f45bf4ff40724957c15fa65b4fe4ad9b9c04",
+      "quest/qc30.dat": "d45e3829692ebd7dfddb62847041ec8d2165629f7f2230fdf03e4ecbd83d27bc",
+      "quest/qc50.dat": "1726d46618a436deacbbcf0706a8f6db0918fe54ec10e11b57e0d94119be3f35",
+      "st1/r100.dat": "348817a4970998406c554480557c939a09c8c02aa12928aec1937c395d400341",
+      "st1/r110.dat": "6f685adf69eaf5a1e40d335ff201c4194d031e466b3e652dc415d2c66e3792e0",
+      "st1/r120.dat": "27ee6de7cabfa6bf1a581a67dabd44ad13e767609b41026e28ca85f079f49962",
+      "st1/r130.dat": "d5cc82a13ccd9c7ca4d6ee60724ada5396d921f6563d108a4f3b2029a4eea584",
+      "st1/r140.dat": "2a6803af882073f15fc7f22dcdf53489ac25a7a2502fe79f5c6cc9595929a283",
+      "st1/r150.dat": "15b01f782e5be8b44479e760e10518e058c9a3e43426f3a079a89d9e8aa43c52",
+      "st1/r160.dat": "4d3b2c1a171fbe7d29d15b2d995e8ab302706f1b715dfc9a02997b1c4dcbf34f",
+      "st1/r170.dat": "1c36b0a58057f11178a20f3d66e891c1546dc64a6ecea8fe0e38817aa6b8d032",
+      "st2/r200.dat": "125264ab8e472a36528784a4db41d71375a42b161f27ec66d28d70c87e6749be",
+      "st5/r530.dat": "a77ef72c3adeb201d4863300c1e702cdbc9b1e3717cf72f68fc5732fd4635e61",
+      "subtitle/subtitle0010_us.dat": "762b30b949134846467277409fe97d0f5645f7a45102be89edbbfaf41778481a",
+      "subtitle/subtitle0011_us.dat": "ce07c3fd9118a2129c0b7af97318b73fb2fa7fe2727d6631573e48f2f18cc692",
+      "subtitle/subtitle0040_us.dat": "14573c261c4d823823da34dfd365faa9bb441a8d34cc8a3bc62fa4fd9e6cfffb",
+      "subtitle/subtitle0050_us.dat": "d499f8ca464dd2fe47ff24b447b453c229157e644ab8ecfb1daf8400061e0182",
+      "subtitle/subtitle0055_us.dat": "efaecd77388c2f1f20a36ee77d319dc0390c926d308fedb235284c67fecdc729",
+      "subtitle/subtitle0060_us.dat": "8eeaa144630114f3ee731c16ea461eeb1a5916fe78f43781b98c388fc480ac82",
+      "subtitle/subtitle0080_us.dat": "cab40de0ef241e4013802b787f55dc672d88d5a386c210bc47a45a802ec05782",
+      "subtitle/subtitle0081_us.dat": "21974c9c7254410c5ae8161001bccf4460e2e7b07f222807df7f900211c6de99",
+      "subtitle/subtitle0120_us.dat": "1ead6acaaa0ee07b1cc51bafaa74a6113fb22e424e169ae68d068e05a2d06c27",
+      "subtitle/subtitle0130_us.dat": "f5520870611c165857c503bb46834b57daa7a28d7cda0cf1bd30dba486b4ed48",
+      "subtitle/subtitle0160_us.dat": "6e127b655ae63caf50ea521bf7afc0c3289c7c57b7e1c8fad2c651e954378be7",
+      "subtitle/subtitle0170_us.dat": "384feace195c093d83c562d260d2f395c63daf7fc18accc8eb8d86e835397a58",
+      "subtitle/subtitle0230_us.dat": "7138f9416711fb8d69568e6ade51cfa1e9e319c4420752d3ec58fdadf6843935",
+      "subtitle/subtitle0270_us.dat": "5f4b9e55413bc2c5bfc8d1686c127ad4c7ebcd623a1cba7b79d2ba78bac70d6a",
+      "subtitle/subtitle0310_us.dat": "b4fd2486714a8423143ca00630d88a77ab5a48a61118c5f1d16a157f62b720ff",
+      "subtitle/subtitle0311_us.dat": "2cdd35941b3ce0765478e51773e013052e011023e7a0a17243044fd2fea0da77",
+      "subtitle/subtitle0330_us.dat": "814e9865cbdd3634ed8d10804ce45a904eff2ea747ba7796b391be8215ac4274",
+      "subtitle/subtitle0350_us.dat": "43c300c24d059d16b0c407d41574047caf486dab13038ca7b033658dd5555c04",
+      "subtitle/subtitle0351_us.dat": "a2d512b34892c83dd34a668a9144af1b8cd3f1fa057f1de4e8b665bff4ad1a9e",
+      "subtitle/subtitle0352_us.dat": "9f8767dea5d282ecb60d279b9cf2ba11c27c98f6f711dfd9b294d900af2c575d",
+      "subtitle/subtitle0410_us.dat": "a24dc7c6ba6320c01c6feb0e774e7716ffe939baab7514b7696ec5aa83987fda",
+      "subtitle/subtitle0420_us.dat": "1ca5e7966780632f851ba9e9fed53f737d13b6d984cbdea582da5c7c501d9ba9",
+      "subtitle/subtitle0475_us.dat": "8950d0630224f49768b70f72d2c5d3861575cdf235ed1bd2f1455f56945417cb",
+      "subtitle/subtitle0482_us.dat": "08f82442fa18ebf0b65983d6f8e25a8668c3eb3c98e346f4d0cbb80723114a1f",
+      "subtitle/subtitle0483_us.dat": "cbdb65440c6e3c20d706898cd049f8907d9956ded652995261ccc04a8b7d5117",
+      "subtitle/subtitle0502_us.dat": "6485aa0ffb8db4c3fb8d45bd9aab0e30a5ba56d416845b3657860206bf5eea45",
+      "subtitle/subtitle0530_us.dat": "f7c66e0c937c80656881b70e283d39d70c55c3c2a3dcd4879be3a835395c13bb",
+      "subtitle/subtitle0531_us.dat": "a7edd69e2c7232065121dac226962c54755999da85736041ecb24fd2407d8086",
+      "subtitle/subtitle0540_us.dat": "97c8698e9bbe953d2664735cae777b140dc6c0f99f07938f55d5add62140d2ce",
+      "subtitle/subtitle0570_us.dat": "4a70e1ac4b37a48cd601977c8aa36bda366b26cac411f25380bd9d3df9a8b146",
+      "subtitle/subtitle0571_us.dat": "d8a528b222df423a00b6d1dd7ff86651ee1ebb89bab6e717431c28d6596c1baf",
+      "subtitle/subtitle0590_us.dat": "e2be22c4033748099e0747b44023ac4a854a3a54a9cee51568b2fad7979cdb80",
+      "subtitle/subtitle0600_us.dat": "061ddc1e16eb28137d2c1aecb809a9da3d636de575342abb65716514a3b20670",
+      "subtitle/subtitle0642_us.dat": "feb1494a71dc1c18147a6161e2edb552483fbf4a1dc526a8d68bd0ef888ed89f",
+      "subtitle/subtitle0650_us.dat": "6049292e0e4e16f226adf0f5b88787953d8fbc0555a8d981456be96f916220ad",
+      "subtitle/subtitle0651_us.dat": "98a4798b36650c4d963276e39e0ba7ca0b7aea768704a124b3470aa1e77f484d",
+      "subtitle/subtitle0660_us.dat": "7a5188e2edf574ba857f87d835ee0421a6b852991a8603f4b8bf6748f9bfb437",
+      "subtitle/subtitle0661_us.dat": "82c4e74315d903e3b361a9873a2bd7535fb8724991f2a03f8ed35742217d9c87",
+      "subtitle/subtitle0693_us.dat": "969ac1a615c3e7b2bc8ef35ad6a2673c2503a839b4080ec30c6de4c6b6f5b474",
+      "subtitle/subtitle0694_us.dat": "fa96a71a8bcc5536b23c7df7006367ec9c6b70647974f1ab932cb8a3f25212e6",
+      "subtitle/subtitle0700_us.dat": "1385f824b291c341bd56947353f35bb2a99b0629165844037650caff76e7da1e",
+      "subtitle/subtitle0702_us.dat": "739ddf5fb19b5a26042f96e21cc3cf2c27cfc5c3723d59f668133e47fc995f08",
+      "subtitle/subtitle0720_us.dat": "cff4e3f96a72ebcd9da61adcc0de3049a361cb5607acd648e968521e4a3b78d3",
+      "subtitle/subtitle0722_us.dat": "240e8dd23c92266439f9b70f94a02d078ec26e4b46f95c8f252731cce429d9e8",
+      "subtitle/subtitle0730_us.dat": "b54f315dd754b97253be08fc80d05c30a543ca9188853031de03122309341594",
+      "subtitle/subtitle0850_us.dat": "3aa56811c352ad047b197b26acd4457a437c2694a94aa3647085d46ced9325a0",
+      "subtitle/subtitle0855_us.dat": "bf113ff7600a046a7100e5f7cd6b0e393e5d33f070fcf239cba5b83356554d9b",
+      "subtitle/subtitle1090_us.dat": "6f5eca9ff7f848ad5cd2314a6d2d84eff1fe860b90a24b047b574db698df88e1",
+      "subtitle/subtitle1091_us.dat": "1f78355a6ad58cf3521fec4eb4cfa41d021e72ecefd04a974e6ba0ef769fd592",
+      "subtitle/subtitle1100_us.dat": "f7e63ec70a0bf81511321157c0d7cda42207b0467779b665d4f059b3bbeae046",
+      "subtitle/subtitle1120_us.dat": "e42b41813465a37af4ff4b27b4db5f92a3cc752aa5cd0cc7023ce6377137ce0f",
+      "subtitle/subtitle1121_us.dat": "edd0145bfa380c745e85dc3bf3bd84a5bb7f2ae0e63ac3dd7a256ed9477fed16",
+      "subtitle/subtitle1150_us.dat": "7b7e02c3c565456f695842d741e07cf073a72743eeeb66f45d4303c39ea1985d",
+      "subtitle/subtitle1220_us.dat": "c972d28096196ddd8899bf1a3d2f8efbc487b34a330d7fafda8bdac0b8d673f0",
+      "subtitle/subtitle1221_us.dat": "5158f214f81b0784cc4e9053557de6d50f2e46009ec5d775d3d66e8e818e4c69",
+      "subtitle/subtitle1230_us.dat": "e54b3a35db74fcec795bc4c80133c7cf25e971765d7a8ab2d2640b2167c79054",
+      "subtitle/subtitle1260_us.dat": "1d9f8cb58771b0b10e5fc7c4a04782d504c768b56c603c2f53fce8dfc1927c87",
+      "subtitle/subtitle1270_us.dat": "d59783ade5040739af52d6a7082cfb069812af664499c526edcd8d48f89f6d35",
+      "subtitle/subtitle1280_us.dat": "bfd675a9743c68015ef635cc47da724f8795fd26e51e97a10fd2aff6387ea477",
+      "subtitle/subtitle1300_us.dat": "b962d34bb5cdf9d9785d255695f6330618a89c2987f522688eccb9d1a84af924",
+      "subtitle/subtitle1310_us.dat": "2e6c5abdd5d7f4465b7e97d2793936a939916858ca2de89e187892f5ba2419a7",
+      "subtitle/subtitle1320_us.dat": "a39492e7af2b32442fe8ac585b4639d2d6cdf6f79c2c35e2f90b9d0195fd7b34",
+      "subtitle/subtitle1400_us.dat": "4161d06b130ed17b1ac253f36f6b9f9ca142d896db486e4d0da951d08e0074fb",
+      "subtitle/subtitle1402_us.dat": "909acee5acd0b1b47c55e9f90679989750fbc051bd35b9f09b1548e14ac5a070",
+      "subtitle/subtitleb060_us.dat": "ea420f8c4210a169cede541eb420d9c698ec7d0abee2aa6b4ae519d5efadc857",
+      "subtitle/subtitleb351_us.dat": "285cebeffad9b26d2772db7c8c42f73c6e50f82eddcc78bacc5ca72fe40700cf",
+      "subtitle/subtitleb651_us.dat": "8ee437ca76bda37a02e8a7ece99b01fdd3cb1fb6aeda8086f901f98a5ba11dc8",
+      "subtitle/subtitleb661_us.dat": "f365f7f73eb02500925ad72fa9e74f90d0bafdcf18f4816cc05781bc3b2ceb9c",
+      "txtmess/txt_chapter_us.dat": "84eb0ae4d5e356d88010f2769f113c719af2724db264af92fe775f07a1716729",
+      "txtmess/txt_core_add_us.dat": "4a84c945e69d765d2ce7985f169a571a07499cbd3e87d67e1be8df98425777e7",
+      "txtmess/txt_core_us.dat": "fa319ea720402695ae5aadecfcd66b5a5a2f8c18e78e935ce8e7ef8dd56d0928",
+      "txtmess/txt_credit_us.dat": "54d65ca8132d8cba2f79d4cec243c8c885e50cc3281c5004fad052ad0313a8ee",
+      "txtmess/txt_dlc1_us.dat": "6cee364811c6627adb0c31306f1902ff49320ff4738d30305cc32dd67e5cf359",
+      "txtmess/txt_dlc3_us.dat": "45919358776f976f1be93e147291fb32ba91dae22fa9c6db7451046e22495076",
+      "txtmess/txt_hud_add_us.dat": "cee001bc8585eed94c578e144f43ae35c4ac5cd55b304b9e9fe3818252354146",
+      "txtmess/txt_hud_us.dat": "0a78828a095b09948acbbe68b6f4a31ae09e0ba14dbc42cd5dc75758aa2bbfd9",
+      "txtmess/txt_pause_add_us.dat": "ab95cea7e5c44fb8675746f94922a1c0897e0718d2841d906f9e0eaff7e6f7f3",
+      "txtmess/txt_pause_us.dat": "b7ba709dcc1a9e31edce216ccb54261d247b138f73effc3c1186941771b65df5",
+      "txtmess/txt_shop_us.dat": "f1b9b3c7f1cfd52137345f5a963bab64ecbfb572cdea4f454b404af53eb59752",
+      "txtmess/txt_support_us.dat": "8a2bbfb56aab185a1533aeb3b1078f4a9175016b4282c60d119d5b615b1d444d",
+      "ui/ui_chapter_us.dat": "8c168ad5d541f36b4bfedb6aaeab00cf8ebab39666795cd2fecc9a7cb4f55aa2",
+      "ui/ui_core_2_us.dat": "799059ae4c89e6a9204c50e035e81967ee78ce13389e77cd34122f74be44f38c",
+      "ui/ui_core_pc_us.dat": "024385de6d85757334c5ceec1f5cbabce8c03606a08147991122c7f1726d5c08",
+      "ui/ui_core_us.dat": "5d350b8e6ad2dfcc153e80790a233dc26c151273ae2135a5ce5718f23bdc7f8f",
+      "ui/ui_dlc1_us.dat": "54b66a9476b2ac2d17d4db6162e07f0b54388017783ff8bfd6436579b5bc263a",
+      "ui/ui_dlc2_us.dat": "d739755a271123a3eed2d3b6cc54619a9ed92a7ea092a2f060eb0d08bbec2ab4",
+      "ui/ui_dlc3_us.dat": "e36a1d63e5eefc45b6ceaf3ba3ad40f0eb1eb09c6faf4e2a1975d9910bcb9eeb",
+      "ui/ui_ending_dlc_us.dat": "662b2e8d107a60c5134dc5b29e243eaa58ce9815b8949de16c33253ca3e5e138",
+      "ui/ui_ending_us.dat": "8fd6243702fa4e367496e88d3d03730efb8a86ae17e9209a68a05f419ca0bbc4",
+      "ui/ui_hud_hacking_us.dat": "07818bb5f924a581f8a6b86c48fa3f84e6e6d5dbc9581899d33bf908e4da0b5d",
+      "ui/ui_hud_us.dat": "5aafdaf0ea3a89e860763d08f9ee27890eeea1a961c161ab055dbf836e8e037f",
+      "ui/ui_option_us.dat": "9122fb23acbe7bc9a32ce5be143b644a53a5234b474cf163f139343a666383e8",
+      "ui/ui_pause_us.dat": "9f8d4696042a5398ee86f760c9c5c56405a0fc468997efd95a8115042e015fa0",
+      "ui/ui_shop_us.dat": "f4bd59d9340a6ff8713d7175fecabc469bf4e1fa9312c5b705153afa2212ac94",
+      "ui/ui_title_us.dat": "4e94960795186ff6a9e87c41205264475341111c95b5d23d9cff12a9859a9048",
+      "wd1/g11516.dat": "9ccc60a967519e6d70268815bde520a758fd19da51ca1ddddc1f53c68076ffe1"
+    }
+  },
+  "resultado_reconstrucao": {
+    "arquivos": {
+      "ph1/p100.dat": "c6a43d391cc4b71495fa29e0940554f6c1bd93ed908bc41cde49b9bbb2d1b5bd",
+      "ph2/p200.dat": "1aee78c4ef62dcb3684f51bafcefe014331fca5869692cd803a617408bce6029",
+      "ph3/p300.dat": "5cfe7a4eabffcd0efef1a034c8b22183c279c59f5c1c5351785827b1d96c36f1",
+      "ph4/p400.dat": "5792fd0f73491a63b46a0996e5f0bf66ba707fec552ae0c09d53f1991159aeff",
+      "phf/pf10.dat": "f249ec01723422f2c90a3c4178d0fee578ea6a21eabd6e70b5ddcfa2b622917f",
+      "phf/pf30.dat": "a42f52e8c9ea32b7cd246a3f8be069eda1432f4969ae20f51c68542b9cd64684",
+      "phf/pf31.dat": "a51be4061e550e8907e96d59bd41f0a5cbfe8bf974ddc50bdb5c65ee938c082f",
+      "phf/pf60.dat": "38bee6d800c259018d270743daaade4d331fadb202cd440e251a8d3a7db87892",
+      "quest/q020.dat": "0705270d25373e26ee43d47f02bb0d804b09fdcee35749ed9785b9f9d8b3b23b",
+      "quest/q031.dat": "5cf93184c5e0ab0240228cb53467cb8466ec40caa7a0eccd743d8a682f02d81f",
+      "quest/q032.dat": "c9fdbf40c4e63c83e7118e58950ab23d7c789ada8ceedd9810bbc856610bbe88",
+      "quest/q040.dat": "902e6ca84b859695bc0c53c63feec0718164f334ba09ddc630d022e13cab92ff",
+      "quest/q070.dat": "6d1cebf8fc9131b8accc0d183a2848279e914a9084ca2183cf0894c0da248c4f",
+      "quest/q071.dat": "7ff7e3f9117ea066cdc187d3d0ace1ff0f4f4ce867577018d8624351a60d65b0",
+      "quest/q080.dat": "a2742bf5a61faa45f5ca5311fa5b3eb895bff0ef57f6a462b74bdf121643e388",
+      "quest/q090.dat": "5aad26167c2d0e29c10e6e90536c7fd359f34e548e89d0662b4b8acdbe35b7f7",
+      "quest/q091.dat": "d0e77ef33c6078080bc167edce5f97d533a0197940792571f59be0c89c1043aa",
+      "quest/q092.dat": "86c12b1b7bd7078cf76095ff7630f15ad4dae39e3e44a407ae38fee5c22b8cd2",
+      "quest/q095.dat": "4a1ddc13e40abbe5f03135874953a521a1b35f45b22204c84bea6ef7566b41ef",
+      "quest/q100.dat": "ccc6657d07d9c8646af7a97be9d2b8af2e36d9ff8d2aa9b3de8b95e2e96776ce",
+      "quest/q101.dat": "7b4a38b94e75a5f52e5064ddbed1eaf327e4778b572e1a407fe234d375804e66",
+      "quest/q102.dat": "0facdbc2cca82463367b8686cba212f84566c1e03f4a1de36fa0e50035f59799",
+      "quest/q103.dat": "be6c8c9148f38982524e5917c2164849ba49a6969518d062f9509aaf7f10abdf",
+      "quest/q104.dat": "28d55accf1a7ced82f2c19f6d87fc2ba88b4083c2b1f00798b0b3781cfbab389",
+      "quest/q110.dat": "751affb71ae8fbf79577801a988a54130df706995b67fcae8244627366992295",
+      "quest/q121.dat": "63f613ebbc2269f34976f29893e72196ca0d779f011ffc8814de6639f69bb146",
+      "quest/q122.dat": "74c3c39d3d2d785d44217a306ccb166b1996fd0a15c49205efc5bde0fc1e1b5a",
+      "quest/q123.dat": "49bcc9de16c8b83798dbebb1e473f45773ea4a289145fa8f46e542d0a0e53d91",
+      "quest/q130.dat": "ddcaa28ded409fb066df12cfbc2625da7053f1d2ea00729a1ea2a61231867abb",
+      "quest/q140.dat": "1be80b34d645760f2383d2361dde8004c9d13f408af0a5671d8fbb38176f5e6f",
+      "quest/q150.dat": "0270b714ced88485a11d8507d1eadda50599d256b841438b56d383a5d0fe9980",
+      "quest/q162.dat": "3be904e27e07dc25eba1ed783c295789de468fd71004cacbdb639b61d10edd9a",
+      "quest/q170.dat": "7bb4efee2df9cda37f994f981649d448b96f0160785f810ef94ac64e7f79adf5",
+      "quest/q171.dat": "86415ad6c350b6193b083d95eedc208e834163e4284906092554983a219d963d",
+      "quest/q180.dat": "498f9c416d92af84cb437891475ae2a950e9188edddd4fa21582a6ee187d63b9",
+      "quest/q181.dat": "c6026ffd25274856b21e3bfe001c8fb81d970bd4b8a301a0b9155b6ff04af30e",
+      "quest/q210.dat": "d80dd348c7f9cc112c1717962c23cb5293d0cc55b42176a11b338ae3bfc143a8",
+      "quest/q220.dat": "cdab31ca26e93e4f3f9ced595b09e0cbea5f2aeda793c558d278c60df7cf8612",
+      "quest/q221.dat": "75e6b825fc100ee6e8d1bd6e9a01bfb4e209882cbc6e4b68c15a0bbf6a441eb3",
+      "quest/q222.dat": "1f34fff48e473a996efb2f3dc79b0bd36119b413c4f52df66d67a2e1aeb505e6",
+      "quest/q290.dat": "fa73d8be27d0b4e0f494e7c554a705467e6e4a7c2327b3ec8dc3a18a6ab0dc16",
+      "quest/q300.dat": "0c00d6fe1688529a222cae79022c985d51842a1f82e6d6048feb790cbcd9ef03",
+      "quest/q330.dat": "d2e861c3c83665cdd92f507d8cb454d3b1d0f06a90a94e90ca76d2f18e0f050f",
+      "quest/q340.dat": "df0e34669971c9b95ba904cc0d3bf0c62959693f3862024b2c801e1126ea3420",
+      "quest/q360.dat": "e7c2480b938d94424aaf5468839331cd78f9c29d5e76be2877d23eb24f0d53e3",
+      "quest/q400.dat": "dddc2fe6cb363e84b99e514f51e8d95ff0e1963bf78e4390e864b3b90bad27f2",
+      "quest/q410.dat": "ca8e56d8ca4707ed9d67959ab471fae18bfa48149ba8ec2a6db7e1c91f44bbf7",
+      "quest/q440.dat": "7b0a796e04e55e9a81e9b271d733bddc719d5431e93b50b5b23e58530aaf4102",
+      "quest/q500.dat": "219c8301fb2f4f7b1ba5f8681df43b91a2df70d831c3c3d1c1c390b19e256776",
+      "quest/q520.dat": "51b97363f6aeffca5df749cd2e626a77d02fef93662c982518f1b625b9d87498",
+      "quest/q532.dat": "4e6d4874d980aa7c277ca4651d06322d058ef21462c83f69e874c5e94c98e7f3",
+      "quest/q540.dat": "31478bf2e1b5169d11ab03da04450ba8e918355edfd0c9ac76435bf2dcfd3d2b",
+      "quest/q550.dat": "aaa26273a946328e403d4c43e7b3b41651d4f7163588f9989392d204b44041da",
+      "quest/q560.dat": "5b2a0476b1fa48727a44f909cbb319330f7924d58446c0d5e96a80a9746d1d97",
+      "quest/q561.dat": "231d65c586a763242e5207a6241014e7d1ec6ea5132cf0b95187d30c50409a9d",
+      "quest/q562.dat": "26afb71228291149e4e566a5526e853c4b3a65bd14f4efcb0ee4ddf873b454e0",
+      "quest/q590.dat": "ed5148594be9b5cc58e6da78817c80f22b6fa1fe8845cd4cfd609c99567b4774",
+      "quest/q640.dat": "5b2b1a397ece75cb3ee382c94d3b16b0120daad0be273f1887d889395e9b16ef",
+      "quest/q650.dat": "df0e40905030048d3e8076d113e02ea4cf015934bbfac1ea2c56f80dd4364c4c",
+      "quest/q651.dat": "7c9a7c64bb1eeb0d731eed38857342c7b10f087048f58ac049d7e49354a0e058",
+      "quest/q652.dat": "015d31f4a5ab7ccdfad4d73c4d82aa2dc46c6158ec1a6cee297a335e1e4fbaa5",
+      "quest/q660.dat": "c135ac004c3a69e575b4ab9183bd227e9a74e0aecf8c9e8727309ccfc790b9bf",
+      "quest/q680.dat": "832d4297f15c2d912f98d462647e26c76efa1539409e16b6cc9acac692fe4405",
+      "quest/q720.dat": "99622847f26cc5f867ca04ad1887711c5e6abea1ed335060cde252860549002f",
+      "quest/q770.dat": "f00e71d9b38cc9c87d335ef1b1b614147ef15dd981a72ead8502fb7ed1429f87",
+      "quest/q800.dat": "906a1afd0ca2193a2e56da7fb0323b5c1e163ea7bf90845b4fe39ad4da882207",
+      "quest/q801.dat": "3cb0c5dd54eae2ee54cbe08b6faa89550ba9170959462a94721c97199d8a690d",
+      "quest/q900.dat": "54bb19fd874c97f233da62033a432de93ea144c9b0d2539d4bc8193a4783b6c5",
+      "quest/q910.dat": "223fbb63f95642526714d0e38174407aae4d9a9872faa7de9ab9274f0ae766a8",
+      "quest/q920.dat": "10e96b429cc0f8ef966b869379b3072e318067b20c6cd59473d94fcfae7008d5",
+      "quest/qab2.dat": "17b0c04d58c4288e229d39ade6ea7842a911183419326d9e4820c22bc9736e2e",
+      "quest/qab3.dat": "dc4b937905b5c590eed86306eb4411b6332dd6bac59166c5745a2a0adfa0619f",
+      "quest/qab5.dat": "347c16a965da49624551ee052dcceb43c7bf4c4b3cca589f81ee560bb8fe4c45",
+      "quest/qab6.dat": "e4723859509a594eb1d1bf26e02ae83bb0b4f37522dbc8411f33c7e05be89fbe",
+      "quest/qaba.dat": "91d547847d6e8aa56a0eba6f2516ab78fc8f39038c0cf6b358c43b1a5e9903f6",
+      "quest/qabb.dat": "06534bd0dba4b446d3510800e38e21312c4a709fb423f9f65adbdbe2f3a748a5",
+      "quest/qabd.dat": "6d612890b2ca6f7646def55b00699344e5aac95fcbf37912a36d2e86cef8728f",
+      "quest/qac8.dat": "a5a702ab5d1d79604b86aca62baa1aab67f6456fa9d9a385d57754129f2feec8",
+      "quest/qad0.dat": "922416ad31bea8e580f2d67ceba43c6f2641695bee0da06f938d25a2f7705a0a",
+      "quest/qad1.dat": "640ef016e786d24a55216e74066a1167a0e8deb85288bfa9356f0c66cafd2fa3",
+      "quest/qad2.dat": "a87660a13d194cd78f6f96b5b6a8e9cefb5d12bc2143e66133fd7a0526dd046e",
+      "quest/qad6.dat": "c704a677b3edb6254179f49e4d99e3e7224ee9c90922f2e7a0b941bb245e5e5d",
+      "quest/qaeb.dat": "f9bccc405dec4ea52588eeef316f4112141986f83fc72c41af6b5a3e7c481f20",
+      "quest/qaef.dat": "1ea7316495c4aa23974c677c598a95a17f35c9a98213836b96ca3e622e8bf6fb",
+      "quest/qaf4.dat": "4a6d8058cb27f11290ab6b2c248069589beb4b753a14b2699c2eb2a3be7c89d0",
+      "quest/qb20.dat": "10aa89f4773c867a4eddb552bc20f886f20e63cc35d69734828e1cf3b9d4627e",
+      "quest/qb40.dat": "0c85f34ad5b2ed312a5bacdf1c506c8d3ee21035fd1bbaa302c02167b5a23fd1",
+      "quest/qc10.dat": "ecaecb2823aec631ce385027e91efca9aa3fd039a7150d75a53f4f5177e2d28b",
+      "quest/qc11.dat": "fcfa7b41160ac4c965195dbf0b3091d59ce5a95b01535f1cf8675e845f54cb69",
+      "quest/qc12.dat": "b1b4f94ba1ff76a30c97120ace6642eb34de34cf089316f9bd34ddda82f9f130",
+      "quest/qc30.dat": "a9f6a715c11a121da32f6903c448586f8e6c03092546cda56487773099a81ec2",
+      "quest/qc50.dat": "5220e1a80ae49392e5af60112c35b3afd9c4023efe31ce64df6b1200b6083c53",
+      "st1/r100.dat": "1e0a63ac6f8e102c668057f65587070abc4042394b77acabe08fe42827c222d6",
+      "st1/r110.dat": "3af76c68144a4d2118dbbb0c378044b8aaaf688a29efb52bc80303bd77def811",
+      "st1/r120.dat": "baf815138c194659b57ea5d086df11c06fdb6cc1ea94e563c345712686857fd3",
+      "st1/r130.dat": "d697ade7445182b641dd530027cc0f730349e3847c9d41a7608051f8e2f75abf",
+      "st1/r140.dat": "df63a0eb1e7f64b27ccc8a22e9fc821120fe7e3fde6328a4f64a4e7e8499581a",
+      "st1/r150.dat": "c4bee31a89bd4c716238a97d58f6f78a209c001580cd0c716da9d0b9ca7a49ab",
+      "st1/r160.dat": "45b348179a67855813233c634cb02cffc387e5ac2789dd327c821a862a1a5814",
+      "st1/r170.dat": "9fcadb93d658cef800f6786a251eac8d2547a73bb932a4fa7957f5ba821d66c3",
+      "st2/r200.dat": "6f5f72cd417b8da3663ae18797baf462d80de6a25c2f51877bed98d1917d13a4",
+      "st5/r530.dat": "edd7da1516c302084ab2db2484cd7a3f57044752b9d8779aec02c55b2186b2d1",
+      "wd1/g11516.dat": "15bfe052d5afba97366a4c6885e043ed9507d579679f27cbb508177207bbfbd6"
+    }
+  },
+  "versoes_anteriores": {
+    "1.0.0": {
       "core/corehap.dat": "2069832ae2f03b98788df33746ae742d9f5bdd3808546bea6c6c9fb145023038",
       "novel/M1030_S0310_N_eng.txt": "0fd1a29968f234fd6a0e604090df086979e187d5f417846e5dfbc33da0ca62e0",
       "novel/M1070_S0020_N_eng.txt": "44f70031d059219b404397f13a62c85debb1bb9b5b2113360d304decf0c6791d",

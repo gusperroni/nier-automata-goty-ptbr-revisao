@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.1.0 — atualização de novembro/2026
+
+- **Compatível com a atualização do jogo de novembro/2026** (chinês simplificado, chinês tradicional e coreano). Quando o jogo atualizado é detectado, 103 arquivos de script são reconstruídos a partir das versões novas, mantendo as correções da Square Enix e o texto em português.
+- 5 falas ajustadas para acompanhar correções do texto em inglês da atualização (ex.: "Nossa líder está na barraca.").
+- O instalador agora atualiza instalações feitas com versões anteriores do patch (a partir do backup).
+- Suporte ao WAX 0.3.0-beta.6.
+- README reorganizado, guia de contribuição e modelos de issue.
+
 ## v1.0.0 — primeira versão
 
 Revisão contextual completa sobre a tradução da Tribo Gamer Brasil v1.00:

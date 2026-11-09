@@ -59,6 +59,7 @@
 {"arquivo": "ph1/p100.dat", "membro": "p100_306867fd_scp.bin", "id": "M6090_S0010_G0125_300_resiman", "antes_sha1": "b8c8812beff7", "texto": "Nossa líder, Anemone, é a responsável por este acampamento. Vá dar um oi quando tiver um minuto."}
 {"arquivo": "ph1/p100.dat", "membro": "p100_306867fd_scp.bin", "id": "M6090_S0010_G0145_300_resiman", "antes_sha1": "568cc872a3e5", "texto": "Ei. Nunca te vi por aqui antes."}
 {"arquivo": "ph1/p100.dat", "membro": "p100_306867fd_scp.bin", "id": "M6090_S0010_G0255_300_resiwoman", "antes_sha1": "6514f99a45a8", "texto": "A Anemone, ali, é a líder do acampamento."}
+{"arquivo": "ph1/p100.dat", "membro": "p100_306867fd_scp.bin", "id": "M6090_S0010_G0455_300_resiwoman", "antes_sha1": "9d79597a6fbc", "texto": "Nossa líder está na barraca."}
 {"arquivo": "ph1/p100.dat", "membro": "p100_39cda07a_scp.bin", "id": "M1020_S0020_G0080_001_a9s", "antes_sha1": "ded22bcc0810", "texto": "Mas não sei dizer por quê."}
 {"arquivo": "ph1/p100.dat", "membro": "p100_39cda07a_scp.bin", "id": "M1020_S0020_G0170_001_n02", "antes_sha1": "1f47e7816dd8", "texto": "Por quêêê..."}
 {"arquivo": "ph1/p100.dat", "membro": "p100_39cda07a_scp.bin", "id": "M1020_S0020_G0210_001_a9s", "antes_sha1": "9daf6b9f1814", "texto": "Certos grupos humanos também costumavam usar pintura facial assim."}
@@ -380,7 +381,7 @@
 {"arquivo": "ph2/p200.dat", "membro": "p200_c7ba8911_scp.bin", "id": "M1060_S0120_G0090_101_a9s", "antes_sha1": "cf4c7bec0e95", "texto": "Mantenha aquela coisa exatamente onde está, ok?"}
 {"arquivo": "ph2/p200.dat", "membro": "p200_d0a7f4dc_scp.bin", "id": "M1090_S0100_G0000_101_pascal", "antes_sha1": "c22e97bf0384", "texto": "Bem, ISSO foi algo e tanto."}
 {"arquivo": "ph2/p200.dat", "membro": "p200_d0a7f4dc_scp.bin", "id": "M1090_S0100_G0110_101_pod042", "antes_sha1": "02119981ea79", "texto": "Procurando interferências."}
-{"arquivo": "ph2/p200.dat", "membro": "p200_d0a7f4dc_scp.bin", "id": "M1090_S0100_G0130_101_ane", "antes_sha1": "eb32a0a82de9", "texto": "Solicitando... reforços! Por favor..."}
+{"arquivo": "ph2/p200.dat", "membro": "p200_d0a7f4dc_scp.bin", "id": "M1090_S0100_G0130_101_ane", "antes_sha1": "eb32a0a82de9", "texto": "Solicitando... reforços... na área! Por favor......"}
 {"arquivo": "ph2/p200.dat", "membro": "p200_d0a7f4dc_scp.bin", "id": "M1090_S0100_G0150_101_a2b", "antes_sha1": "6f81bff5687c", "texto": "Por que o número delas está aumentando assim?"}
 {"arquivo": "ph2/p200.dat", "membro": "p200_d0b71b3b_scp.bin", "id": "M1050_S0185_S0010_201_smallrobot", "antes_sha1": "e6d7bdde7529", "texto": "Sua Majestade. Ele está... morto."}
 {"arquivo": "ph2/p200.dat", "membro": "p200_d0b71b3b_scp.bin", "id": "M1050_S0185_S0070_201_smallrobot", "antes_sha1": "70e9dad1e5e5", "texto": "Colocamos as memórias de Sua Majestade, a última lembrança deixada para nós, nessa pequena criança."}
@@ -584,7 +585,7 @@
 {"arquivo": "ph3/p300.dat", "membro": "p300_abb1d768_scp.bin", "id": "M3000_S0040_G0240_001_op210", "antes_sha1": "a37ea169f87f", "texto": "Unidades Scanner como você não foram feitas para combate."}
 {"arquivo": "ph3/p300.dat", "membro": "p300_abb1d768_scp.bin", "id": "M3000_S0040_G0260_001_op210", "antes_sha1": "47de55699b05", "texto": "Não. Estou apenas apontando que você seria um estorvo no campo de batalha."}
 {"arquivo": "ph3/p300.dat", "membro": "p300_abb1d768_scp.bin", "id": "M3000_S0040_G0310_001_a9s", "antes_sha1": "75300f1c2809", "texto": "Hum, só resta um, eu acho."}
-{"arquivo": "ph3/p300.dat", "membro": "p300_abb1d768_scp.bin", "id": "M3000_S0040_G0350_001_a11s", "antes_sha1": "7a452c56ae0e", "texto": "Até que seja feito o upload dos dados de combate, nenhum dos módulos Scanner poderá executar atualizações."}
+{"arquivo": "ph3/p300.dat", "membro": "p300_abb1d768_scp.bin", "id": "M3000_S0040_G0350_001_a11s", "antes_sha1": "7a452c56ae0e", "texto": "Até que seja feito o upload dos dados de combate, nenhum dos modelos Scanner poderá executar atualizações."}
 {"arquivo": "ph3/p300.dat", "membro": "p300_abb1d768_scp.bin", "id": "M5920_S0020_G0320_001_pod153", "antes_sha1": "b53b0042f6c9", "texto": "Proposta: Retorne à área operacional imediatamente."}
 {"arquivo": "ph3/p300.dat", "membro": "p300_ac91bbe4_scp.bin", "id": "M3060_S0500_G0020_001_announce", "antes_sha1": "992141fd4799", "texto": "Boas-vindas à Torre!"}
 {"arquivo": "ph3/p300.dat", "membro": "p300_ac91bbe4_scp.bin", "id": "M3060_S0500_G0030_001_girls", "antes_sha1": "992141fd4799", "texto": "Boas-vindas à Torre!"}
@@ -1042,6 +1043,7 @@
 {"arquivo": "quest/q091.dat", "membro": "q091_2f2a0eea_scp.bin", "id": "M6120_S0190_G0010_001_resi", "antes_sha1": "219f09691508", "texto": "Quero assistir às de nível mais alto, mas são muito caras."}
 {"arquivo": "quest/q091.dat", "membro": "q091_2f2a0eea_scp.bin", "id": "M6120_S0190_G0030_001_resi", "antes_sha1": "eeb7ed3d7ba5", "texto": "Os ingressos para as partidas de nível alto podem ser caros, mas, uau, valem cada centavo!"}
 {"arquivo": "quest/q091.dat", "membro": "q091_2f2a0eea_scp.bin", "id": "M6120_S0190_G0050_001_resi", "antes_sha1": "aa14f38b164e", "texto": "Os androides devem estar mais famintos por entretenimento do que eu pensava."}
+{"arquivo": "quest/q091.dat", "membro": "q091_2f2a0eea_scp.bin", "id": "M6120_S0200_G0030_001_resi", "antes_sha1": "68f2f16ac6f9", "texto": "Mas o campeão venceu 96 partidas seguidas."}
 {"arquivo": "quest/q091.dat", "membro": "q091_2f2a0eea_scp.bin", "id": "M6120_S0200_G0040_001_resi", "antes_sha1": "0e80b3cde287", "texto": "A questão é: ele chegará a 100 ou você vai impedi-lo?"}
 {"arquivo": "quest/q091.dat", "membro": "q091_2f2a0eea_scp.bin", "id": "M6120_S0200_G0060_001_resi", "antes_sha1": "c3a54ed79778", "texto": "Eu tinha certeza de que ele conseguiria 100 vitórias e sairia deste lugar, mas veja só..."}
 {"arquivo": "quest/q091.dat", "membro": "q091_2f2a0eea_scp.bin", "id": "M6120_S0210_G0000_001_resi", "antes_sha1": "626df21757a2", "texto": "Ugh... Estou sem sorte nenhuma hoje."}
@@ -1384,6 +1386,7 @@
 {"arquivo": "quest/q222.dat", "membro": "q222_f8217e42_scp.bin", "id": "M5222_S0020_G0040_001_a2", "antes_sha1": "6c5fb8f62e4d", "texto": "Ah, que se dane. É melhor ir ver o Pascal."}
 {"arquivo": "quest/q222.dat", "membro": "q222_f8217e42_scp.bin", "id": "M5222_S0030_G0030_001_pascal", "antes_sha1": "3d984b27fdcf", "texto": "Honestamente, poderíamos ter transferido o núcleo da criança para outro corpo em vez de reparar o original."}
 {"arquivo": "quest/q222.dat", "membro": "q222_f8217e42_scp.bin", "id": "M5222_S0030_G0050_001_pascal", "antes_sha1": "003926495ac2", "texto": "Mas isso custa as nossas memórias."}
+{"arquivo": "quest/q222.dat", "membro": "q222_f8217e42_scp.bin", "id": "M5222_S0030_G0060_001_pascal", "antes_sha1": "45e446c12a2d", "texto": "Então, de certo modo, já não seria a mesma criança."}
 {"arquivo": "quest/q290.dat", "membro": "q290_e15f2fa1_scp.bin", "id": "M5290_S0010_G0010_001_a9s", "antes_sha1": "ad7617a5ea35", "texto": "Este lugar não é exatamente o que eu chamaria de \"divertido\"."}
 {"arquivo": "quest/q290.dat", "membro": "q290_e15f2fa1_scp.bin", "id": "M5290_S0010_G0020_001_robocreator", "antes_sha1": "9044595980bc", "texto": "Bem observado. Está mais para um parque de \"desdiversões\", hein?"}
 {"arquivo": "quest/q290.dat", "membro": "q290_e15f2fa1_scp.bin", "id": "M5290_S0010_G0020_300_sele", "antes_sha1": "c40b766a1070", "texto": "Recusar."}

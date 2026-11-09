@@ -19,7 +19,7 @@ import sys
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, AQUI)
-from nier_ptbr import dat, mruby, mcd, tmd_smd  # noqa: E402
+from nier_ptbr import cpk, dat, mruby, mcd, tmd_smd  # noqa: E402
 
 PASTA_BACKUP = '_backup_revisao_ptbr'
 CONGELADO = getattr(sys, 'frozen', False)
@@ -43,6 +43,11 @@ def sha256(p):
 
 def sha1_texto(s):
     return hashlib.sha1(s.encode('utf-8')).hexdigest()[:12]
+
+
+def sid(mid):
+    """Identificador da fala sem o nome do personagem (M####_S####_G####_###)."""
+    return '_'.join(mid.split('_')[:4])
 
 
 def ler_jsonl(p):
@@ -72,22 +77,31 @@ class Patch:
     def situacao(self):
         """Classifica cada arquivo: 'base' (Tribo v1.00), 'aplicado', 'ausente' ou 'diferente'."""
         res = {}
-        aplic = self.man.get('resultado', {}).get('arquivos', {})
+        aplic = [self.man.get(k, {}).get('arquivos', {}) for k in ('resultado', 'resultado_reconstrucao')]
         for fn, h in self.man['base']['arquivos'].items():
             p = os.path.join(self.data, fn)
             if not os.path.exists(p):
                 res[fn] = 'ausente'
                 continue
             atual = sha256(p)
-            res[fn] = 'base' if atual == h else ('aplicado' if aplic.get(fn) == atual else 'diferente')
+            anteriores = self.man.get('versoes_anteriores', {}).values()
+            if atual == h:
+                res[fn] = 'base'
+            elif any(a.get(fn) == atual for a in aplic):
+                res[fn] = 'aplicado'
+            elif any(a.get(fn) == atual for a in anteriores):
+                res[fn] = 'anterior'
+            else:
+                res[fn] = 'diferente'
         return res
 
     # ---------- aplicação ----------
     def aplicar(self, com_wax=True):
         sit = self.situacao()
         cont = collections.Counter(sit.values())
-        print('Arquivos da tradução: %d originais da Tribo v1.00, %d já corrigidos, %d ausentes, %d diferentes'
-              % (cont['base'], cont['aplicado'], cont['ausente'], cont['diferente']))
+        print('Arquivos da tradução: %d originais da Tribo v1.00, %d já corrigidos, %d de uma versão anterior '
+              'do patch, %d ausentes, %d diferentes'
+              % (cont['base'], cont['aplicado'], cont['anterior'], cont['ausente'], cont['diferente']))
         if cont['ausente'] or cont['diferente']:
             for fn, s in sorted(sit.items()):
                 if s in ('ausente', 'diferente'):
@@ -95,6 +109,7 @@ class Patch:
             print('\nNada foi alterado. Instale (ou reinstale) a tradução da Tribo Gamer Brasil v1.00 e tente de novo.')
             return False
         alvo = [fn for fn, s in sit.items() if s == 'base']
+        alvo += self._atualizaveis(sit)
         if not alvo:
             print('O patch já está aplicado.')
         else:
@@ -103,6 +118,32 @@ class Patch:
             self.aplicar_wax()
         print('\nPronto! Backup dos arquivos originais em: %s' % self.backup)
         return True
+
+    def _atualizaveis(self, sit):
+        """Arquivos corrigidos por uma versão anterior do patch (sem reconstrução) que podem ser
+        refeitos a partir dos arquivos atualizados do jogo. Volta o arquivo da Tribo do backup."""
+        classico = self.man.get('resultado', {}).get('arquivos', {})
+        recon = self.man.get('reconstrucao', {}).get('arquivos', {})
+        base = self.man['base']['arquivos']
+        candidatos = []
+        anteriores = []
+        for fn, s in sit.items():
+            b = os.path.join(self.backup, fn)
+            if not (os.path.exists(b) and sha256(b) == base[fn]):
+                continue
+            if s == 'anterior':
+                anteriores.append(fn)
+            elif s == 'aplicado' and fn in recon and sha256(os.path.join(self.data, fn)) == classico.get(fn):
+                candidatos.append(fn)
+        if candidatos and not self._arquivos_atualizados(set(candidatos)):
+            candidatos = []
+        candidatos += anteriores
+        if not candidatos:
+            return []
+        for fn in candidatos:
+            shutil.copy2(os.path.join(self.backup, fn), os.path.join(self.data, fn))
+        print('Atualizando %d arquivos corrigidos por uma versão anterior do patch.' % len(candidatos))
+        return candidatos
 
     def _guardar_backup(self, fn):
         destino = os.path.join(self.backup, fn)
@@ -121,19 +162,33 @@ class Patch:
             kern = self._kerning()
         avisos = []
         total = 0
-        for i, (fn, membros) in enumerate(sorted(grupos.items()), 1):
+        reconst = self._arquivos_atualizados(alvo)
+        if reconst:
+            print('Jogo com a atualização de novembro/2026: %d arquivos de script serão reconstruídos '
+                  'a partir das versões novas do jogo.' % len(reconst))
+        todos = sorted(set(grupos) | set(reconst))
+        if not todos and not any(fn.startswith('novel/') for fn in alvo):
+            print('O patch já está aplicado.')
+            return
+        for i, fn in enumerate(todos, 1):
+            membros = grupos.get(fn, {})
             p = os.path.join(self.data, fn)
             b = open(p, 'rb').read()
             atuais = dat.membros(b)
-            novos = {}
-            for mem, regs in membros.items():
-                novos[mem], n, av = self._aplicar_membro(mem, atuais[mem], regs, kern)
-                total += n
-                avisos += ['%s/%s: %s' % (fn, mem, a) for a in av]
+            if fn in reconst:
+                base_bytes, novos, n, av = self._reconstruir(fn, reconst[fn], atuais, membros)
+            else:
+                base_bytes, novos, n, av = b, {}, 0, []
+                for mem, regs in membros.items():
+                    novos[mem], k, a = self._aplicar_membro(mem, atuais[mem], regs, kern)
+                    n += k
+                    av += a
+            total += n
+            avisos += ['%s: %s' % (fn, a) for a in av]
             self._guardar_backup(fn)
             with open(p, 'wb') as f:
-                f.write(dat.reempacotar(b, novos))
-            print('\r  [%d/%d] %s' % (i, len(grupos), fn) + ' ' * 20, end='', flush=True)
+                f.write(dat.reempacotar(base_bytes, novos))
+            print('\r  [%d/%d] %s' % (i, len(todos), fn) + ' ' * 20, end='', flush=True)
         print()
         n_nov = self._aplicar_novels(alvo)
         print('Textos corrigidos: %d (+ %d trechos de novels)' % (total, n_nov))
@@ -197,6 +252,75 @@ class Patch:
         for k in set(quer) - feitos:
             avisos.append('texto %s não encontrado' % k)
         return saida, len(feitos), avisos
+
+    def _arquivos_atualizados(self, alvo):
+        """Arquivos de script cuja versão atualizada (nov/2026) está nos pacotes do jogo.
+
+        Retorna {arquivo: bytes do DAT original atualizado}."""
+        cfg = self.man.get('reconstrucao', {}).get('arquivos', {})
+        por_cpk = collections.defaultdict(list)
+        for fn, c in cfg.items():
+            if fn in alvo:
+                por_cpk[c['cpk']].append(fn)
+        achados = {}
+        for nome_cpk, arquivos in sorted(por_cpk.items()):
+            p = os.path.join(self.data, nome_cpk)
+            if not os.path.exists(p):
+                continue
+            pacote = cpk.CPK(p)
+            queremos = set(arquivos)
+            for nome, reg in pacote.files():
+                if nome in queremos:
+                    dados = pacote.read(reg)
+                    if hashlib.sha256(dados).hexdigest() == cfg[nome]['sha256_original']:
+                        achados[nome] = dados
+            pacote.f.close()
+        return achados
+
+    def _reconstruir(self, fn, original, tribo, membros_patch):
+        """Monta o DAT a partir da versão atualizada do jogo, com o texto da Tribo e as correções."""
+        cfg = self.man['reconstrucao']['arquivos'][fn]
+        novos_orig = dat.membros(original)
+        manter_tribo = set(cfg.get('manter_tribo', []))
+        manter_en = set(cfg.get('manter_ingles_novo', []))
+        saida = {}
+        total = 0
+        avisos = []
+        for mem, dados in novos_orig.items():
+            if mem in manter_tribo:
+                saida[mem] = tribo[mem]
+                continue
+            if not mem.endswith('_scp.bin') or dados[:4] != b'RITE' or mem not in tribo:
+                continue
+            textos_tribo = {}
+            for ir, slots, mid in mruby.MRB(tribo[mem]).tables():
+                w = ir['iseq'][slots[1]]
+                if (w & 0x7f) == 61:
+                    textos_tribo[mid] = ir['pool'][(w >> 7) & 0xffff][1].decode('utf-8', 'replace')
+            m = mruby.MRB(dados)
+            mids_novos = {mid for _, _, mid in m.tables()}
+            # falas renomeadas pela atualização (mesma fala, outro personagem no nome)
+            por_sid = {sid(mid): t for mid, t in textos_tribo.items() if mid not in mids_novos}
+            quer = {r['id']: r for r in membros_patch.get(mem, [])}
+            quer_sid = {sid(k): r for k, r in quer.items() if k not in mids_novos}
+            feitos = set()
+            for ir, slots, mid in m.tables():
+                if mid in manter_en:
+                    continue
+                t = textos_tribo[mid] if mid in textos_tribo else por_sid.get(sid(mid))
+                r = quer[mid] if mid in quer else quer_sid.get(sid(mid))
+                if r is not None:
+                    if t is not None and sha1_texto(t) != r['antes_sha1']:
+                        avisos.append('%s: texto anterior inesperado em %s' % (mem, mid))
+                    t = r['texto']
+                    feitos.add(r['id'])
+                if t is not None:
+                    m.set_slot(ir, slots[1], t)
+            for k in set(quer) - feitos:
+                avisos.append('%s: texto %s não encontrado' % (mem, k))
+            total += len(feitos)
+            saida[mem] = m.dump()
+        return original, saida, total, avisos
 
     def _kerning(self):
         mcds = []
