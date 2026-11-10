@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.2.0 — textos do WAX
+## v1.1.2 — textos do WAX
 
 - **Textos do mod WAX traduzidos:** a mensagem da tela de carregamento ("Iniciando a verificação de sistema _wax carregado_"), o item "Pedra em forma de coração" e as descrições das tinturas de cabelo, que o WAX substituía por versões em inglês. A descrição da pedra também não aparecia, porque o texto original do WAX usava uma letra que a fonte da tradução não tem.
 - Prólogo: "Isso são...?" na reação da 2B ao som dos pássaros.

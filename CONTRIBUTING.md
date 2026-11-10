@@ -44,6 +44,16 @@ pyinstaller --onefile --console --name AplicarPatch-NieR-PTBR --paths aplicador 
 
 O executável fica em `dist\`.
 
+## Versionamento
+
+O projeto segue o formato `MAJOR.MINOR.PATCH`:
+
+| Tipo | Quando usar | Exemplo |
+|---|---|---|
+| **Major** | Muda o que o usuário precisa ter instalado ou quebra a compatibilidade com instalações anteriores. | Exigir outra versão da tradução da Tribo. |
+| **Minor** | Acompanha uma mudança no jogo ou no WAX. | Suporte à atualização do jogo de novembro/2026; suporte a uma nova versão do WAX que mude o que é traduzido. |
+| **Patch** | Correções e textos novos, sem mudança no jogo ou no WAX, inclusive textos existentes que ainda não estavam traduzidos. Também correções do instalador. | Corrigir uma fala; traduzir a tela de carregamento do WAX. |
+
 ## Publicando uma versão (mantenedores)
 
 1. Atualize `versao_patch` e as assinaturas de resultado em `patch/manifesto.json` e registre a versão anterior em `versoes_anteriores`, para que o instalador consiga atualizar quem já aplicou o patch.
