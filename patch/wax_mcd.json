@@ -1,0 +1,259 @@
+[
+  {
+    "filename": "messloading.mcd",
+    "messages": [
+      {
+        "event_name": "LOADING_BASE_01_US",
+        "locale": "*",
+        "font_id": 5,
+        "paragraphs": [
+          [
+            "Iniciando a verificação de sistema     _wax carregado_"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "filename": "messcore.mcd",
+    "messages": [
+      {
+        "event_name": "WAX_ITEM_NAME_4075012",
+        "locale": "*",
+        "font_id": 36,
+        "paragraphs": [
+          [
+            "Pedra em forma de coração"
+          ]
+        ]
+      },
+      {
+        "event_name": "WAX_ITEM_HELP_4075012",
+        "locale": "*",
+        "font_id": 36,
+        "paragraphs": [
+          [
+            "Uma pedra com uma estranha forma",
+            "de coração. A mulher do acampamento",
+            "disse que é uma pedra, mas ela",
+            "parece meio mole ao toque..."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "filename": "messdlc1.mcd",
+    "messages": [
+      {
+        "event_name": "CORE_ITEM_HELP_880",
+        "locale": "*",
+        "font_id": 36,
+        "paragraphs": [
+          [
+            "Use para fazer seu cabelo",
+            "voltar à cor branca."
+          ]
+        ]
+      },
+      {
+        "event_name": "CORE_ITEM_HELP_881",
+        "locale": "*",
+        "font_id": 36,
+        "paragraphs": [
+          [
+            "Use para tingir seu cabelo de",
+            "preto."
+          ]
+        ]
+      },
+      {
+        "event_name": "CORE_ITEM_HELP_882",
+        "locale": "*",
+        "font_id": 36,
+        "paragraphs": [
+          [
+            "Use para tingir seu cabelo de",
+            "castanho."
+          ]
+        ]
+      },
+      {
+        "event_name": "CORE_ITEM_HELP_883",
+        "locale": "*",
+        "font_id": 36,
+        "paragraphs": [
+          [
+            "Use para tingir seu cabelo de",
+            "ruivo."
+          ]
+        ]
+      },
+      {
+        "event_name": "CORE_ITEM_HELP_884",
+        "locale": "*",
+        "font_id": 36,
+        "paragraphs": [
+          [
+            "Use para tingir seu cabelo de",
+            "azul."
+          ]
+        ]
+      },
+      {
+        "event_name": "CORE_ITEM_HELP_885",
+        "locale": "*",
+        "font_id": 36,
+        "paragraphs": [
+          [
+            "Use para tingir seu cabelo de",
+            "verde."
+          ]
+        ]
+      },
+      {
+        "event_name": "CORE_ITEM_HELP_886",
+        "locale": "*",
+        "font_id": 36,
+        "paragraphs": [
+          [
+            "Use para tingir seu cabelo de",
+            "roxo."
+          ]
+        ]
+      },
+      {
+        "event_name": "CORE_ITEM_HELP_887",
+        "locale": "*",
+        "font_id": 36,
+        "paragraphs": [
+          [
+            "Use para tingir seu cabelo de",
+            "grisalho."
+          ]
+        ]
+      },
+      {
+        "event_name": "CORE_ITEM_HELP_888",
+        "locale": "*",
+        "font_id": 36,
+        "paragraphs": [
+          [
+            "Use para tingir seu cabelo de",
+            "dourado."
+          ]
+        ]
+      },
+      {
+        "event_name": "CORE_ITEM_HELP_889",
+        "locale": "*",
+        "font_id": 36,
+        "paragraphs": [
+          [
+            "Use para tingir seu cabelo de",
+            "rosa pastel."
+          ]
+        ]
+      },
+      {
+        "event_name": "CORE_ITEM_HELP_890",
+        "locale": "*",
+        "font_id": 36,
+        "paragraphs": [
+          [
+            "Use para tingir seu cabelo de",
+            "azul-claro."
+          ]
+        ]
+      },
+      {
+        "event_name": "CORE_ITEM_HELP_891",
+        "locale": "*",
+        "font_id": 36,
+        "paragraphs": [
+          [
+            "Use para tingir seu cabelo de",
+            "verde-limão."
+          ]
+        ]
+      },
+      {
+        "event_name": "CORE_ITEM_HELP_892",
+        "locale": "*",
+        "font_id": 36,
+        "paragraphs": [
+          [
+            "Use para tingir seu cabelo de",
+            "lilás."
+          ]
+        ]
+      },
+      {
+        "event_name": "CORE_ITEM_HELP_893",
+        "locale": "*",
+        "font_id": 36,
+        "paragraphs": [
+          [
+            "Use para tingir seu cabelo de",
+            "branco neon."
+          ]
+        ]
+      },
+      {
+        "event_name": "CORE_ITEM_HELP_894",
+        "locale": "*",
+        "font_id": 36,
+        "paragraphs": [
+          [
+            "Use para tingir seu cabelo de",
+            "amarelo neon."
+          ]
+        ]
+      },
+      {
+        "event_name": "CORE_ITEM_HELP_895",
+        "locale": "*",
+        "font_id": 36,
+        "paragraphs": [
+          [
+            "Use para tingir seu cabelo de",
+            "rosa neon."
+          ]
+        ]
+      },
+      {
+        "event_name": "CORE_ITEM_HELP_896",
+        "locale": "*",
+        "font_id": 36,
+        "paragraphs": [
+          [
+            "Use para tingir seu cabelo de",
+            "azul neon."
+          ]
+        ]
+      },
+      {
+        "event_name": "CORE_ITEM_HELP_897",
+        "locale": "*",
+        "font_id": 36,
+        "paragraphs": [
+          [
+            "Use para tingir seu cabelo de",
+            "verde neon."
+          ]
+        ]
+      },
+      {
+        "event_name": "CORE_ITEM_HELP_898",
+        "locale": "*",
+        "font_id": 36,
+        "paragraphs": [
+          [
+            "Use para tingir seu cabelo de",
+            "roxo neon."
+          ]
+        ]
+      }
+    ]
+  }
+]

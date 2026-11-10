@@ -110,7 +110,7 @@ Basta executar a versão nova do instalador. Ele reconhece os arquivos corrigido
 |---|---|
 | Jogo original (antes de nov/2026) | ✅ Suportado |
 | Atualização de nov/2026 (chinês simplificado/tradicional e coreano) | ✅ Suportado — os scripts de falas são reconstruídos a partir dos arquivos novos do jogo, mantendo as correções da atualização |
-| Mod WAX 0.3.0-beta.6 ou superior | ✅ Suportado — o instalador gera a versão traduzida da "Mulher Estranha" |
+| Mod WAX 0.3.0-beta.6 ou superior | ✅ Suportado — o instalador traduz a "Mulher Estranha", a tela de carregamento e os itens do WAX |
 | Outras traduções ou versões da Tribo | ❌ Não suportado |
 
 > [!TIP]

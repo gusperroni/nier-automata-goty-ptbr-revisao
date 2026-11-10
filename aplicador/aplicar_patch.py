@@ -393,6 +393,12 @@ class Patch:
         with open(destino, 'wb') as f:
             f.write(m.dump())
         print('WAX: script da "Mulher Estranha" traduzido (%d falas) em %s' % (n, destino))
+        origem_mcd = os.path.join(self.pp, 'wax_mcd.json')
+        if os.path.exists(origem_mcd) and cfg.get('arquivo_mcd'):
+            destino_mcd = os.path.join(self.jogo, *cfg['arquivo_mcd'].split('/'))
+            os.makedirs(os.path.dirname(destino_mcd), exist_ok=True)
+            shutil.copyfile(origem_mcd, destino_mcd)
+            print('WAX: textos do WAX (tela de carregamento e itens) traduzidos em %s' % destino_mcd)
 
     # ---------- restauração ----------
     def restaurar(self):
@@ -406,9 +412,11 @@ class Patch:
                 rel = os.path.relpath(origem, self.backup)
                 shutil.copy2(origem, os.path.join(self.data, rel))
                 n += 1
-        wax = os.path.join(self.jogo, *self.man['wax']['arquivo_alvo'].split('/'))
-        if os.path.exists(wax):
-            os.remove(wax)
+        for chave in ('arquivo_alvo', 'arquivo_mcd'):
+            if chave in self.man['wax']:
+                wax = os.path.join(self.jogo, *self.man['wax'][chave].split('/'))
+                if os.path.exists(wax):
+                    os.remove(wax)
         print('%d arquivos restaurados para a versão da Tribo Gamer.' % n)
 
 
