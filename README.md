@@ -85,7 +85,7 @@ AplicarPatch-NieR-PTBR.exe "C:\caminho\do\NieRAutomata" [--verificar] [--restaur
 |---|---|
 | `--verificar` | Só confere os arquivos (originais da Tribo, já corrigidos, de versão anterior ou diferentes), sem alterar nada. |
 | `--restaurar` | Desfaz o patch, voltando os arquivos da Tribo a partir do backup. |
-| `--sem-wax` | Não gera o arquivo para o mod WAX. |
+| `--sem-wax` | Não gera os arquivos para o mod WAX. |
 
 </details>
 
@@ -135,7 +135,7 @@ O mod WAX substitui o script dessa personagem por uma cópia própria, em inglê
 <details>
 <summary><b>Como desinstalar?</b></summary>
 
-Execute `AplicarPatch-NieR-PTBR.exe --restaurar`. Os arquivos voltam à versão da Tribo Gamer, e o arquivo do WAX é removido.
+Execute `AplicarPatch-NieR-PTBR.exe --restaurar`. Os arquivos voltam à versão da Tribo Gamer, e os arquivos do WAX são removidos.
 
 </details>
 
