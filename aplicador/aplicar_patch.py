@@ -6,9 +6,11 @@ Uso:
   aplicar_patch.py [PASTA_DO_JOGO]            aplica o patch
   aplicar_patch.py [PASTA_DO_JOGO] --verificar  só confere os arquivos, sem alterar nada
   aplicar_patch.py [PASTA_DO_JOGO] --restaurar  desfaz o patch usando o backup
-  Opções: --sem-wax (não gera o arquivo para o mod WAX)
+  Opções: --sem-wax (não gera os arquivos para o mod WAX: script da "Mulher Estranha"
+           e textos da tela de carregamento e dos itens)
 
 Sem PASTA_DO_JOGO, usa a pasta onde o programa está (se for a pasta do jogo) ou pergunta.
+A versão do patch fica em patch/manifesto.json ("versao_patch").
 """
 import collections
 import hashlib
