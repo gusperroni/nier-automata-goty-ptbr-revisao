@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.1.1 — cena final da rota A
+
+- Corrige a legenda dividida no meio da palavra ("multi" / "plexei") na cena final, quando o 9S explica que se regenerou na rede das máquinas. O original em inglês também corta a palavra; agora a quebra fica entre palavras, como na outra versão da cena.
+- Polimento das demais legendas da cena (ex.: "Eu e a 2B... nossa batalha ainda vai continuar por um bom tempo.").
+
 ## v1.1.0 — atualização de novembro/2026
 
 - **Compatível com a atualização do jogo de novembro/2026** (chinês simplificado, chinês tradicional e coreano). Quando o jogo atualizado é detectado, 103 arquivos de script são reconstruídos a partir das versões novas, mantendo as correções da Square Enix e o texto em português.
